@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 407ce8523cfde76429db52fd05f5a417
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 223264
+  packageName: Guess The Picture Game Template
+  packageVersion: 1.0
+  assetPath: Assets/DTT/Minigame - Guess The Picture/Runtime/FlexibleGridLayout.cs
+  uploadId: 552701

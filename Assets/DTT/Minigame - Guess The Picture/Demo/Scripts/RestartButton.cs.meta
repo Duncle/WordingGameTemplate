@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7cf4e8331c0ad4740b8cb6d97f8e7343
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 223264
+  packageName: Guess The Picture Game Template
+  packageVersion: 1.0
+  assetPath: Assets/DTT/Minigame - Guess The Picture/Demo/Scripts/RestartButton.cs
+  uploadId: 552701

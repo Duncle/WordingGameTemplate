@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a64f8e363f8db764d9b52cc6e09b0d6f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 223264
+  packageName: Guess The Picture Game Template
+  packageVersion: 1.0
+  assetPath: Assets/DTT/Minigame Base/Assets/Prefabs/Pause Button.prefab
+  uploadId: 552701

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0881186fb2cf79f4fbca26866ec63aab
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 223264
+  packageName: Guess The Picture Game Template
+  packageVersion: 1.0
+  assetPath: Assets/DTT/Minigame - Guess The Picture/Demo/Prefabs/HomeButton.prefab
+  uploadId: 552701

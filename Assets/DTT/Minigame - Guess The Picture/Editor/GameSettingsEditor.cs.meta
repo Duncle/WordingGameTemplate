@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c220244afe19920489c79b41c91b8372
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 223264
+  packageName: Guess The Picture Game Template
+  packageVersion: 1.0
+  assetPath: Assets/DTT/Minigame - Guess The Picture/Editor/GameSettingsEditor.cs
+  uploadId: 552701

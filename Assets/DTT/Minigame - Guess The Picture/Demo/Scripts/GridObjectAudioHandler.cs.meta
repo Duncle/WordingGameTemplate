@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 534ba2dd6e264b647813e6c3c9bf7bf6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 223264
+  packageName: Guess The Picture Game Template
+  packageVersion: 1.0
+  assetPath: Assets/DTT/Minigame - Guess The Picture/Demo/Scripts/GridObjectAudioHandler.cs
+  uploadId: 552701

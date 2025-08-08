@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c443e231468677f4d8d6d2b4a4ed90ad
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 223264
+  packageName: Guess The Picture Game Template
+  packageVersion: 1.0
+  assetPath: Assets/DTT/Minigame - Guess The Picture/Demo/Prefabs/Letter.prefab
+  uploadId: 552701

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d7e7751295ae3714383df7a5b8b48079
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 223264
+  packageName: Guess The Picture Game Template
+  packageVersion: 1.0
+  assetPath: Assets/DTT/Minigame - Guess The Picture/Demo/Scriptable Objects/Guess
+    the picture Level Database.asset
+  uploadId: 552701
