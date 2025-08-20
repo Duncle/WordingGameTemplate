@@ -2,5 +2,5 @@ using UnityEngine;
 
 public interface IRewardedAds
 {
-    void ShowRewardedAd();
+    void ShowRewardedAd(RewardAdsType type);
 }
