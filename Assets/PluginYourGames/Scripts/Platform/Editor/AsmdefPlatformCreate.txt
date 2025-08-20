@@ -1,12 +1,8 @@
 {
-    "name": "DTT.Minigame-GuessThePicture.Demo",
+    "name": "___PLATFORM_NAME___",
     "rootNamespace": "",
-    "references": [
-        "GUID:d97eb2ede3673934ba640ef9c82ed95f",
-        "GUID:40110409d6f32d94c8a49de52995a651",
-        "GUID:d6a9cb7025fc6a345b7e854fe83032c1"
-    ],
-    "includePlatforms": [],
+    "references": [],
+    "includePlatforms": [ "XboxOne" ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
