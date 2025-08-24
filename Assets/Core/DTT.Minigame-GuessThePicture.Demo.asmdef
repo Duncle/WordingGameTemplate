@@ -1,8 +1,11 @@
 {
     "name": "DTT.Minigame-GuessThePicture.Demo",
+    "rootNamespace": "",
     "references": [
         "GUID:d97eb2ede3673934ba640ef9c82ed95f",
-        "GUID:40110409d6f32d94c8a49de52995a651"
+        "GUID:40110409d6f32d94c8a49de52995a651",
+        "GUID:d6a9cb7025fc6a345b7e854fe83032c1",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
