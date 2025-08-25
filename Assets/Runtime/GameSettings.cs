@@ -87,7 +87,7 @@ namespace DTT.GuessThePicture
         /// <summary>
         /// The additional letters that the player can pick from to form a word.
         /// </summary>
-        public string AditionalLetters => _additionalLetters;
+        public string AdditionalLetters => _additionalLetters;
 
         /// <summary>
         /// The size of the grid that covers the picture.

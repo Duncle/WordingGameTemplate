@@ -109,7 +109,11 @@ namespace DTT.GuessThePicture
         /// <summary>
         /// The amount of hints available to reveal the elements of the picture grid.
         /// </summary>
-        public int Hints => _hints;
+        public int Hints
+        {
+            get => _hints;
+            set => _hints = value;
+        }
 
         /// <summary>
         /// Generates the UI elements of the mini game.
@@ -128,7 +132,7 @@ namespace DTT.GuessThePicture
                 _pictureGrid.InstantiateGridElements(settings.GridSize, settings.RevealsOnStart);
 
             ClearLetterBoard();
-            _currentGuessLetters = (settings.Word + settings.AditionalLetters).Shuffle();
+            _currentGuessLetters = (settings.Word + settings.AdditionalLetters).Shuffle();
 
             // Gets the estimated size of the snap points.
             RectTransform layoutRect = (RectTransform)_snapLayoutGroup.transform;
