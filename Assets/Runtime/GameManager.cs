@@ -71,6 +71,12 @@ namespace DTT.GuessThePicture
         /// </summary>
         public Timer Timer => _timer;
 
+        public int LevelIndex
+        {
+            get => _levelIndex;
+            set => _levelIndex = value;
+        }
+
         /// <summary>
         /// The amount of wrong guesses the player has made.
         /// </summary>
@@ -80,6 +86,8 @@ namespace DTT.GuessThePicture
         /// The amount of hints used by the player.
         /// </summary>
         private int _hintsUsed;
+
+        private int _levelIndex;
 
         /// <summary>
         /// The timer for the game.
@@ -158,7 +166,7 @@ namespace DTT.GuessThePicture
         {
             _guessThePictureInterface.SetInteractable(false);
             _timer.Stop();
-            Finish?.Invoke(new GameResults((float)_timer.TimePassed.TotalSeconds, _hintsUsed, _wrongGuesses));
+            Finish?.Invoke(new GameResults((float)_timer.TimePassed.TotalSeconds, _hintsUsed, _wrongGuesses, _levelIndex));
         }
 
         /// <summary>

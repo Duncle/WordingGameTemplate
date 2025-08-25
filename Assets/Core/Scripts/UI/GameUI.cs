@@ -109,6 +109,7 @@ namespace DTT.GuessThePicture
             _timer.Begin();
             _homeButton.gameObject.SetActive(false);
             _pauseButton.OnStart();
+            _guessThePictureManager.LevelIndex = _levelSelectHandler.CurrentLevel;
         }
 
         /// <summary>

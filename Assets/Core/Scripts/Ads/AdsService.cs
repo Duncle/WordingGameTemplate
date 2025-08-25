@@ -29,10 +29,7 @@ public class AdsService : MonoBehaviour
             ShowInterstitialAd();
     }
     
-    public void ShowInterstitialAd()
-    {
-        _provider.Interstitial.ShowInterstitialAd();
-    }
+    public void ShowInterstitialAd() => _provider.Interstitial.ShowInterstitialAd();
     
     public void ShowRewarded(RewardAdsType type)
     {
