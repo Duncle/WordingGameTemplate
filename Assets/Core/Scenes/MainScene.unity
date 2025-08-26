@@ -1478,6 +1478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _guessThePictureInterface: {fileID: 217188195}
+  _gameManager: {fileID: 217188197}
   hintsToAddOnHintsButton: 3
 --- !u!1 &1063510639
 GameObject:

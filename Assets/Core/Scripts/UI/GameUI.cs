@@ -82,6 +82,7 @@ namespace DTT.GuessThePicture
             _guessThePictureManager.Finish += OnFinished;
             _guessThePictureManager.Started += OnStarted;
             _guessThePictureUI.HintUsed += UpdateHintText;
+            _guessThePictureUI.HinAmountChanged += UpdateHintText;
             _homeButton.HomeButtonPressed += HomePage;
             _pauseButton.PauseButtonPressed += TogglePaused;
             _restartButton.RestartButtonPressed += RestartGameLevel;
@@ -95,6 +96,7 @@ namespace DTT.GuessThePicture
             _guessThePictureManager.Finish -= OnFinished;
             _guessThePictureManager.Started -= OnStarted;
             _guessThePictureUI.HintUsed -= UpdateHintText;
+            _guessThePictureUI.HinAmountChanged -= UpdateHintText;
             _homeButton.HomeButtonPressed -= HomePage;
             _pauseButton.PauseButtonPressed -= TogglePaused;
             _restartButton.RestartButtonPressed -= RestartGameLevel;
@@ -128,7 +130,7 @@ namespace DTT.GuessThePicture
         /// Updates the text for the number of hints.
         /// </summary>
         /// <param name="currentHints">The amount of current hints.</param>
-        private void UpdateHintText(int currentHints) => _hintsText.text = currentHints.ToString(); 
+        private void UpdateHintText(int currentHints) => _hintsText.text = currentHints.ToString();
 
         /// <summary>
         /// Toggles the paused state of the game.

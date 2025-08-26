@@ -796,17 +796,17 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   scriptingDefineSymbols:
-    Android: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;InterstitialAdv_yg;StickyAdv_yg;RewardedAdv_yg
-    LinuxHeadlessSimulation: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;InterstitialAdv_yg;StickyAdv_yg;RewardedAdv_yg
-    Nintendo Switch: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;InterstitialAdv_yg;StickyAdv_yg;RewardedAdv_yg
-    PS4: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;InterstitialAdv_yg;StickyAdv_yg;RewardedAdv_yg
-    PS5: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;InterstitialAdv_yg;StickyAdv_yg;RewardedAdv_yg
-    Standalone: MINIGAME_-_GUESS_THE_PICTURE_ASSET_STORE_RELEASE;PUBLISHING_TOOLS_ASSET_STORE_RELEASE;PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;InterstitialAdv_yg;StickyAdv_yg;RewardedAdv_yg
-    WebGL: PUBLISHING_TOOLS_ASSET_STORE_RELEASE;CALCULATION_RACE_ASSET_STORE_RELEASE;PIXEL_COLORING_ASSET_STORE_RELEASE;MATH_BALANCING_ASSET_STORE_RELEASE;NONOGRAM_ASSET_STORE_RELEASE;CROSSWORD_MINIGAME_ASSET_STORE_RELEASE;MINIGAME_-_ORDERING_ASSET_STORE_RELEASE;MINIGAME_PIANO_ASSET_STORE_RELEASE;MINIGAME_-_CUPS_AND_BALLS_ASSET_STORE_RELEASE;MINIGAME_-_GUESS_THE_PICTURE_ASSET_STORE_RELEASE;PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;InterstitialAdv_yg;StickyAdv_yg;RewardedAdv_yg
-    Windows Store Apps: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;InterstitialAdv_yg;StickyAdv_yg;RewardedAdv_yg
-    XboxOne: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;InterstitialAdv_yg;StickyAdv_yg;RewardedAdv_yg
-    iPhone: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;InterstitialAdv_yg;StickyAdv_yg;RewardedAdv_yg
-    tvOS: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;InterstitialAdv_yg;StickyAdv_yg;RewardedAdv_yg
+    Android: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;StickyAdv_yg;RewardedAdv_yg;InterstitialAdv_yg
+    LinuxHeadlessSimulation: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;StickyAdv_yg;RewardedAdv_yg;InterstitialAdv_yg
+    Nintendo Switch: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;StickyAdv_yg;RewardedAdv_yg;InterstitialAdv_yg
+    PS4: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;StickyAdv_yg;RewardedAdv_yg;InterstitialAdv_yg
+    PS5: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;StickyAdv_yg;RewardedAdv_yg;InterstitialAdv_yg
+    Standalone: MINIGAME_-_GUESS_THE_PICTURE_ASSET_STORE_RELEASE;PUBLISHING_TOOLS_ASSET_STORE_RELEASE;PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;StickyAdv_yg;RewardedAdv_yg;InterstitialAdv_yg
+    WebGL: PUBLISHING_TOOLS_ASSET_STORE_RELEASE;CALCULATION_RACE_ASSET_STORE_RELEASE;PIXEL_COLORING_ASSET_STORE_RELEASE;MATH_BALANCING_ASSET_STORE_RELEASE;NONOGRAM_ASSET_STORE_RELEASE;CROSSWORD_MINIGAME_ASSET_STORE_RELEASE;MINIGAME_-_ORDERING_ASSET_STORE_RELEASE;MINIGAME_PIANO_ASSET_STORE_RELEASE;MINIGAME_-_CUPS_AND_BALLS_ASSET_STORE_RELEASE;MINIGAME_-_GUESS_THE_PICTURE_ASSET_STORE_RELEASE;PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;StickyAdv_yg;RewardedAdv_yg;InterstitialAdv_yg
+    Windows Store Apps: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;StickyAdv_yg;RewardedAdv_yg;InterstitialAdv_yg
+    XboxOne: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;StickyAdv_yg;RewardedAdv_yg;InterstitialAdv_yg
+    iPhone: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;StickyAdv_yg;RewardedAdv_yg;InterstitialAdv_yg
+    tvOS: PLUGIN_YG_2;TMP_YG2;YandexGamesPlatform_yg;StickyAdv_yg;RewardedAdv_yg;InterstitialAdv_yg
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

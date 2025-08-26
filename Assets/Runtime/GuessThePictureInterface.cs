@@ -64,6 +64,7 @@ namespace DTT.GuessThePicture
         /// Invoked when a hint is used.
         /// </summary>
         public event Action<int> HintUsed;
+        public event Action<int> HinAmountChanged;
 
         /// <summary>
         /// All current letter UI elements.
@@ -253,6 +254,8 @@ namespace DTT.GuessThePicture
 
             _pictureGrid.SetInteractable(interactable);
         }
+
+        public void ChangeHintsAmount() => HinAmountChanged?.Invoke(_hints);
 
         /// <summary>
         /// Handles picking up a letter.
