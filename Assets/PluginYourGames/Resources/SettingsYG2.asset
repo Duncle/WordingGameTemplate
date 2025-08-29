@@ -19,7 +19,6 @@ MonoBehaviour:
     postponeCallTimer: 10
     labelAdvSimLabel: 0
   RewardedAdv:
-    rewardedAfterClosing: 1
     skipInterAdvAfterReward: 0
     labelAdvSimLabel: 0
   Basic:
@@ -78,6 +77,7 @@ MonoBehaviour:
     interAdvInterval: 0
     postponeCallByFail: 0
     skipInterAdvAfterReward: 0
+    autoPauseGame: 0
     selectWebGLTemplate: 1
     runInBackground: 1
     enableExceptions: 1

@@ -10,17 +10,19 @@ namespace DTT.GuessThePicture
         /// <summary>
         /// Time it took to finish the game in seconds.
         /// </summary>
-        public readonly float timeTaken;
+        public readonly float TimeTaken;
 
         /// <summary>
         /// The amount of wrong guesses that the player gave.
         /// </summary>
-        public readonly int wrongGuesses;
+        public readonly int WrongGuesses;
 
         /// <summary>
         /// The amount of hints used to solve the game.
         /// </summary>
-        public readonly int hintsUsed;
+        public readonly int HintsUsed;
+
+        public readonly int LevelIndex;
 
         /// <summary>
         /// Sets the result information.
@@ -28,11 +30,13 @@ namespace DTT.GuessThePicture
         /// <param name="timeTaken">Time the player took to finish the game in seconds.</param>
         /// <param name="hintsUsed">The amount of hints used to solve the game.</param>
         /// <param name="wrongGuesses">The amount of wrong guesses that the player gave.</param>
-        public GameResults(float timeTaken, int hintsUsed, int wrongGuesses)
+        /// <param name="levelIndex"></param>
+        public GameResults(float timeTaken, int hintsUsed, int wrongGuesses, int levelIndex)
         {
-            this.timeTaken = timeTaken;
-            this.wrongGuesses = wrongGuesses;
-            this.hintsUsed = hintsUsed;
+            this.TimeTaken = timeTaken;
+            this.WrongGuesses = wrongGuesses;
+            this.HintsUsed = hintsUsed;
+            this.LevelIndex = levelIndex;
         }
 
         /// <summary>
@@ -43,13 +47,16 @@ namespace DTT.GuessThePicture
         {
             StringBuilder sb = new StringBuilder();
             sb.Append("Amount of wrong guesses: ");
-            sb.Append(wrongGuesses);
+            sb.Append(WrongGuesses);
             sb.Append('\t');
             sb.Append("Amount of hints used: ");
-            sb.Append(hintsUsed);
+            sb.Append(HintsUsed);
             sb.Append('\t');
             sb.Append("Time taken (s): ");
-            sb.Append(timeTaken);
+            sb.Append(TimeTaken);
+            sb.Append('\t');
+            sb.Append("Level index: ");
+            sb.Append(LevelIndex);
             return sb.ToString();
         }
     }
