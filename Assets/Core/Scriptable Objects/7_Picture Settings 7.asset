@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 7_Picture Settings 7
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 1fc09e5a565afae47acba97190a0e3f1, type: 3}
-  _word: acer
-  _additionalLetters: pr
-  _hints: 1
+  _picture: {fileID: 21300000, guid: b294c7dbe0815ee449c4c6ebe321f7f6, type: 3}
+  _word: mercedes
+  _additionalLetters: hulla
+  _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 3, y: 3}
   _hidePicture: 1

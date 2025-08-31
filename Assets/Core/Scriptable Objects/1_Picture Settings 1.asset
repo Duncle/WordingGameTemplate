@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: e90ae8f45e4afe4478a9506141ed583b, type: 3}
   _word: youtube
-  _additionalLetters: rcdE
+  _additionalLetters: rcalq
   _hints: 1
   _revealsOnStart: 1
   _gridSize: {x: 2, y: 2}

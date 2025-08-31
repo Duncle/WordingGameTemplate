@@ -15,9 +15,9 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: 8a8a0eba4b4f25c4482850eb681e1c5a, type: 3}
   _word: activision
   _additionalLetters: kjqxzm
-  _hints: 3
-  _revealsOnStart: 2
-  _gridSize: {x: 5, y: 5}
+  _hints: 5
+  _revealsOnStart: 3
+  _gridSize: {x: 4, y: 4}
   _hidePicture: 1
   _letterColors:
   - {r: 0.113725506, g: 0.5982295, b: 0.88235295, a: 1}

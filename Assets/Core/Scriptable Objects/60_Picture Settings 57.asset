@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 24d1a43edff9f85428f435efc640c6f9, type: 3}
   _word: pringles
-  _additionalLetters: ubane
-  _hints: 7
+  _additionalLetters: ubanev
+  _hints: 5
   _revealsOnStart: 3
-  _gridSize: {x: 8, y: 8}
+  _gridSize: {x: 4, y: 4}
   _hidePicture: 1
   _letterColors:
   - {r: 0.113725506, g: 0.5982295, b: 0.88235295, a: 1}

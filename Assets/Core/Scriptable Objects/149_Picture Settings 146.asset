@@ -16,8 +16,8 @@ MonoBehaviour:
   _word: volvo
   _additionalLetters: damazm
   _hints: 7
-  _revealsOnStart: 2
-  _gridSize: {x: 8, y: 8}
+  _revealsOnStart: 3
+  _gridSize: {x: 6, y: 6}
   _hidePicture: 1
   _letterColors:
   - {r: 0.113725506, g: 0.5982295, b: 0.88235295, a: 1}

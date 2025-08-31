@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 8bd43a24afc5e7d409e09ce29824b2f0, type: 3}
   _word: balenciaga
-  _additionalLetters: tomford
-  _hints: 2
-  _revealsOnStart: 3
-  _gridSize: {x: 5, y: 5}
+  _additionalLetters: tomfo
+  _hints: 3
+  _revealsOnStart: 2
+  _gridSize: {x: 3, y: 3}
   _hidePicture: 1
   _letterColors:
   - {r: 0.113725506, g: 0.5982295, b: 0.88235295, a: 1}

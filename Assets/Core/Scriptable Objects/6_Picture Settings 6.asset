@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 6_Picture Settings 6
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: b213124c22c873f4094fa36f64dcb59a, type: 3}
-  _word: rolex
-  _additionalLetters: time
-  _hints: 1
+  _picture: {fileID: 21300000, guid: 93a3c84ffe9bdcb4eabe6ee0b7eaf83d, type: 3}
+  _word: lego
+  _additionalLetters: radjy
+  _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 3, y: 3}
   _hidePicture: 1

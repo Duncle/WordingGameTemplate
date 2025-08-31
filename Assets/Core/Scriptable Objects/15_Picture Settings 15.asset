@@ -15,9 +15,9 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: e896b520bc77d64478e3ee3f0f84efd7, type: 3}
   _word: Balmain
   _additionalLetters: hersp
-  _hints: 1
-  _revealsOnStart: 3
-  _gridSize: {x: 4, y: 4}
+  _hints: 3
+  _revealsOnStart: 2
+  _gridSize: {x: 3, y: 3}
   _hidePicture: 1
   _letterColors:
   - {r: 0.113725506, g: 0.5982295, b: 0.88235295, a: 1}

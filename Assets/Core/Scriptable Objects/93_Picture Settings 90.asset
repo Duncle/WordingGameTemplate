@@ -15,9 +15,9 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: 78779c296324be74abd6ba0f103d9926, type: 3}
   _word: rollsroyce
   _additionalLetters: mashin
-  _hints: 7
-  _revealsOnStart: 2
-  _gridSize: {x: 8, y: 8}
+  _hints: 6
+  _revealsOnStart: 3
+  _gridSize: {x: 5, y: 5}
   _hidePicture: 1
   _letterColors:
   - {r: 0.113725506, g: 0.5982295, b: 0.88235295, a: 1}

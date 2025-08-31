@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 4cf4207a80b36d04ca130b89f1247524, type: 3}
   _word: peugeot
-  _additionalLetters: ymas
-  _hints: 7
-  _revealsOnStart: 2
-  _gridSize: {x: 8, y: 8}
+  _additionalLetters: ymaszv
+  _hints: 6
+  _revealsOnStart: 3
+  _gridSize: {x: 5, y: 5}
   _hidePicture: 1
   _letterColors:
   - {r: 0.113725506, g: 0.5982295, b: 0.88235295, a: 1}

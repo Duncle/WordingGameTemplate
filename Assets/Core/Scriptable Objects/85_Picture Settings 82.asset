@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 85_Picture Settings 82
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: fb37a93067ab7e04c8740cf9b30f08df, type: 3}
-  _word: twix
-  _additionalLetters: daw
-  _hints: 7
-  _revealsOnStart: 2
-  _gridSize: {x: 8, y: 8}
+  _picture: {fileID: 21300000, guid: 90998a3e471097749aa6578db55a5277, type: 3}
+  _word: bioware
+  _additionalLetters: myuslv
+  _hints: 6
+  _revealsOnStart: 3
+  _gridSize: {x: 5, y: 5}
   _hidePicture: 1
   _letterColors:
   - {r: 0.113725506, g: 0.5982295, b: 0.88235295, a: 1}

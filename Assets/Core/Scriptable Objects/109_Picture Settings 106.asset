@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: ab2465215bd8a3b439cc79985ed25492, type: 3}
   _word: samsung
-  _additionalLetters: tyoly
+  _additionalLetters: tyolyw
   _hints: 7
-  _revealsOnStart: 2
-  _gridSize: {x: 8, y: 8}
+  _revealsOnStart: 3
+  _gridSize: {x: 6, y: 6}
   _hidePicture: 1
   _letterColors:
   - {r: 0.113725506, g: 0.5982295, b: 0.88235295, a: 1}

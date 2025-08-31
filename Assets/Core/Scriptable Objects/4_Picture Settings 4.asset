@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 4_Picture Settings 4
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 3c7c4b191d3bc134db2a989c81d1db6b, type: 3}
-  _word: chanel
-  _additionalLetters: reua
+  _picture: {fileID: 21300000, guid: 5baf21bb4b223ad458625e403dee625d, type: 3}
+  _word: instagram
+  _additionalLetters: flujb
   _hints: 1
-  _revealsOnStart: 2
-  _gridSize: {x: 3, y: 3}
+  _revealsOnStart: 1
+  _gridSize: {x: 2, y: 2}
   _hidePicture: 1
   _letterColors:
   - {r: 0.33283615, g: 0.88235295, b: 0.113725506, a: 1}

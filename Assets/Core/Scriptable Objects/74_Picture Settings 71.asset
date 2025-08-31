@@ -15,9 +15,9 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: ccb6152c7b05d4649a54686eead762ad, type: 3}
   _word: paypal
   _additionalLetters: hfqnii
-  _hints: 7
-  _revealsOnStart: 2
-  _gridSize: {x: 8, y: 8}
+  _hints: 6
+  _revealsOnStart: 3
+  _gridSize: {x: 5, y: 5}
   _hidePicture: 1
   _letterColors:
   - {r: 0.113725506, g: 0.5982295, b: 0.88235295, a: 1}

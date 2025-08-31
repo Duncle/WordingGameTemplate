@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 35_Picture Settings 33
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 76230f57674d1f440a79bf6a63c7ce1d, type: 3}
-  _word: apple
+  _picture: {fileID: 21300000, guid: c1610cc7c2ca02046aa4fb20f0da8a54, type: 3}
+  _word: fedex
   _additionalLetters: uduntu
   _hints: 5
-  _revealsOnStart: 2
-  _gridSize: {x: 6, y: 6}
+  _revealsOnStart: 3
+  _gridSize: {x: 4, y: 4}
   _hidePicture: 1
   _letterColors:
   - {r: 0.113725506, g: 0.5982295, b: 0.88235295, a: 1}
