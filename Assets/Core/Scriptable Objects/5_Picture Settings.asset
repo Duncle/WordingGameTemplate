@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
+  m_Name: 5_Picture Settings
+  m_EditorClassIdentifier: 
+  _picture: {fileID: 21300000, guid: 76230f57674d1f440a79bf6a63c7ce1d, type: 3}
+  _word: APPLE
+  _additionalLetters: NISSY
+  _hints: 1
+  _revealsOnStart: 2
+  _gridSize: {x: 2, y: 2}
+  _hidePicture: 1
+  _letterColors:
+  - {r: 0.33283615, g: 0.88235295, b: 0.113725506, a: 1}
+  - {r: 0.5295478, g: 0.76457685, b: 0.990566, a: 1}
+  - {r: 0.40806848, g: 0.26963922, b: 0.5754717, a: 1}
