@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 10_Picture Settings 10
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 567d73beed5853444bc39740fe4a64fc, type: 3}
-  _word: gucci
-  _additionalLetters: hylen
+  _word: GUCCI
+  _additionalLetters: HYLEN
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 3, y: 3}

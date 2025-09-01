@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 4_Picture Settings 4
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 5baf21bb4b223ad458625e403dee625d, type: 3}
-  _word: instagram
-  _additionalLetters: flujb
+  _word: INSTAGRAM
+  _additionalLetters: FLUJB
   _hints: 1
   _revealsOnStart: 1
   _gridSize: {x: 2, y: 2}

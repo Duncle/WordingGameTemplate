@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 61_Picture Settings 58
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 41e870a4a8ca2fc438460692ce3ec4b5, type: 3}
-  _word: tesla
-  _additionalLetters: bywqvo
+  _word: TESLA
+  _additionalLetters: BYWQVO
   _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 17_Picture Settings 17
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 0db41211dbd024d4f958338b0a7b7c31, type: 3}
-  _word: fiat
-  _additionalLetters: renoy
+  _word: FIAT
+  _additionalLetters: RENOY
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 3, y: 3}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 7_Picture Settings 7
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: b294c7dbe0815ee449c4c6ebe321f7f6, type: 3}
-  _word: mercedes
-  _additionalLetters: hulla
+  _word: MERCEDES
+  _additionalLetters: HULLA
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 3, y: 3}

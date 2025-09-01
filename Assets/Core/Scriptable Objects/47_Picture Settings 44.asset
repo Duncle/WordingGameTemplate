@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 47_Picture Settings 44
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 53cefc62d642dd8468fbfdbc272c4cc1, type: 3}
-  _word: mountinedew
-  _additionalLetters: ybuspf
+  _word: MOUNTINEDEW
+  _additionalLetters: YBUSPF
   _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 4, y: 4}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 138_Picture Settings 135
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 3c45e68a48f4bd642a8ee3e6e8fd1969, type: 3}
-  _word: yahoo
-  _additionalLetters: eulaqw
+  _word: YAHOO
+  _additionalLetters: EULAQW
   _hints: 7
   _revealsOnStart: 3
   _gridSize: {x: 6, y: 6}

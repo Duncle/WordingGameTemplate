@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 101_Picture Settings 98
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 7229f1da15b1482438ed58ed264cfaa1, type: 3}
-  _word: kappa
-  _additionalLetters: ridesv
+  _word: KAPPA
+  _additionalLetters: RIDESV
   _hints: 7
   _revealsOnStart: 3
   _gridSize: {x: 6, y: 6}

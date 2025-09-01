@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 11_Picture Settings 11
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 9b709008ac1c7fc4fa74992851411c37, type: 3}
-  _word: chevrolet
-  _additionalLetters: radik
+  _word: CHEVROLET
+  _additionalLetters: RADIK
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 3, y: 3}

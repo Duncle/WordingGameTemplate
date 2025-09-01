@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 154_Picture Settings 151
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: e53e88cad39b2e24fb16a94e09f64f3f, type: 3}
-  _word: guess
-  _additionalLetters: symkich
+  _word: GUESS
+  _additionalLetters: SYMKICH
   _hints: 8
   _revealsOnStart: 3
   _gridSize: {x: 7, y: 7}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 99_Picture Settings 96
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 9a2bcb6935f033d43b31de979e031560, type: 3}
-  _word: reebok
-  _additionalLetters: adissu
+  _word: REEBOK
+  _additionalLetters: ADISSU
   _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

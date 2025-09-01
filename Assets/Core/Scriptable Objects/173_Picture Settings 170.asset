@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 173_Picture Settings 170
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: fc258c1ae5bc62c4b8a1bc76183d887e, type: 3}
-  _word: pagani
-  _additionalLetters: ynovotu
+  _word: PAGANI
+  _additionalLetters: YNOVOTU
   _hints: 8
   _revealsOnStart: 3
   _gridSize: {x: 7, y: 7}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 82_Picture Settings 79
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 78210e798b1b8e94baba47306ce593bc, type: 3}
-  _word: rockstar
-  _additionalLetters: blueqd
+  _word: ROCKSTAR
+  _additionalLetters: BLUEQD
   _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 8_Picture Settings 8
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: c2d17709bf067cc4085d7cfda6e7cf12, type: 3}
-  _word: alibaba
-  _additionalLetters: pskyz
+  _word: ALIBABA
+  _additionalLetters: PSKYZ
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 3, y: 3}

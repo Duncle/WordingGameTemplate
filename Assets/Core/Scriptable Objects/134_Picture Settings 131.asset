@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 134_Picture Settings 131
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 28a42db396cf1b64989b82e6f1a15a64, type: 3}
-  _word: hummer
-  _additionalLetters: dpaaly
+  _word: HUMMER
+  _additionalLetters: DPAALY
   _hints: 7
   _revealsOnStart: 3
   _gridSize: {x: 6, y: 6}

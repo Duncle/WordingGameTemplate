@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 19_Picture Settings 19
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 5d34a10b02b99e14cb9cc7dea3659db2, type: 3}
-  _word: chrysler
-  _additionalLetters: yotsn
+  _word: CHRYSLER
+  _additionalLetters: YOTSN
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 3, y: 3}

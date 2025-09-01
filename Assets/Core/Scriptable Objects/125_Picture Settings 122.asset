@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 125_Picture Settings 122
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: de6af951db8e31d4ba2f2c86489315e0, type: 3}
-  _word: nissan
-  _additionalLetters: omodyq
+  _word: NISSAN
+  _additionalLetters: OMODYQ
   _hints: 7
   _revealsOnStart: 2
   _gridSize: {x: 8, y: 8}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 145_Picture Settings 142
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: ff330766fee7f1c408f5f5825f544d1d, type: 3}
-  _word: cadillac
-  _additionalLetters: omodyq
+  _word: CADILLAC
+  _additionalLetters: OMODYQ
   _hints: 7
   _revealsOnStart: 3
   _gridSize: {x: 6, y: 6}

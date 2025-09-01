@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 93_Picture Settings 90
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 78779c296324be74abd6ba0f103d9926, type: 3}
-  _word: rollsroyce
-  _additionalLetters: mashin
+  _word: ROLLSROYCE
+  _additionalLetters: MASHIN
   _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

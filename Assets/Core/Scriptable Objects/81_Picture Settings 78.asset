@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 81_Picture Settings 78
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: ed9a13e808e2e8d4ab94190684c2ccd1, type: 3}
-  _word: tiktok
-  _additionalLetters: flaytz
+  _word: TIKTOK
+  _additionalLetters: FLAYTZ
   _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

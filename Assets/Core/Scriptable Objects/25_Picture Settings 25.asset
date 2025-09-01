@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 25_Picture Settings 25
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 4d6c7d2a7d32a194e80b36f2e36a7310, type: 3}
-  _word: barbie
-  _additionalLetters: kdszpy
+  _word: BARBIE
+  _additionalLetters: KDSZPY
   _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 4, y: 4}

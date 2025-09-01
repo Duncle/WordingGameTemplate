@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 45_Picture Settings 42
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 29fae1ef9b85f224184ce4bad64d71d3, type: 3}
-  _word: marvel
-  _additionalLetters: dcjnbi
+  _word: MARVEL
+  _additionalLetters: DCJNBI
   _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 4, y: 4}

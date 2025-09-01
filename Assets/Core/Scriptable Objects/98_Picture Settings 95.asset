@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 98_Picture Settings 95
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: edc4cbfafe813ac4d87cd2841e52ad94, type: 3}
-  _word: opel
-  _additionalLetters: imzadv
+  _word: OPEL
+  _additionalLetters: IMZADV
   _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

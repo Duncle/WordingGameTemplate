@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 53_Picture Settings 50
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: a628e6197f299c34f9b18c0a533d7d15, type: 3}
-  _word: gillette
-  _additionalLetters: dihjas
+  _word: GILLETTE
+  _additionalLetters: DIHJAS
   _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 4, y: 4}

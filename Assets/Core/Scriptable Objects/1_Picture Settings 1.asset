@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 1_Picture Settings 1
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: e90ae8f45e4afe4478a9506141ed583b, type: 3}
-  _word: youtube
-  _additionalLetters: rcalq
+  _word: YOUTUBE
+  _additionalLetters: RCALQ
   _hints: 1
   _revealsOnStart: 1
   _gridSize: {x: 2, y: 2}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 26_Picture Settings 26
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: fb37a93067ab7e04c8740cf9b30f08df, type: 3}
-  _word: twix
-  _additionalLetters: zerogj
+  _word: TWIX
+  _additionalLetters: ZEROGJ
   _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 4, y: 4}

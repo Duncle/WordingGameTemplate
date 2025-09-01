@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 133_Picture Settings 130
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 4a23dfe820e073b44bb33f66a55a29b6, type: 3}
-  _word: google
-  _additionalLetters: udarai
+  _word: GOOGLE
+  _additionalLetters: UDARAI
   _hints: 7
   _revealsOnStart: 3
   _gridSize: {x: 6, y: 6}

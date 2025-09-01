@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 122_Picture Settings 119
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 88ff84d2c2eb15e4f98eb6395b1c503c, type: 3}
-  _word: playstore
-  _additionalLetters: ruqdax
+  _word: PLAYSTORE
+  _additionalLetters: RUQDAX
   _hints: 7
   _revealsOnStart: 2
   _gridSize: {x: 8, y: 8}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 85_Picture Settings 82
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 90998a3e471097749aa6578db55a5277, type: 3}
-  _word: bioware
-  _additionalLetters: myuslv
+  _word: BIOWARE
+  _additionalLetters: MYUSLV
   _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 136_Picture Settings 133
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 7e9cbb0718d2f7f4997146dd96ca3763, type: 3}
-  _word: nestle
-  _additionalLetters: ayular
+  _word: NESTLE
+  _additionalLetters: AYULAR
   _hints: 7
   _revealsOnStart: 3
   _gridSize: {x: 6, y: 6}

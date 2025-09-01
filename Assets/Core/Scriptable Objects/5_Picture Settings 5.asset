@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 5_Picture Settings 5
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 76230f57674d1f440a79bf6a63c7ce1d, type: 3}
-  _word: apple
-  _additionalLetters: nissy
+  _word: APPLE
+  _additionalLetters: NISSY
   _hints: 1
   _revealsOnStart: 2
   _gridSize: {x: 2, y: 2}

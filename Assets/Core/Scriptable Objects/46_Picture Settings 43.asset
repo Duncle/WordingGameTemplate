@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 46_Picture Settings 43
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: eb0d62cc90a7c314ca30fc18f3298c1d, type: 3}
-  _word: natusvincere
-  _additionalLetters: oyoomp
+  _word: NATUSVINCERE
+  _additionalLetters: OYOOMP
   _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 4, y: 4}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 6_Picture Settings 6
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 93a3c84ffe9bdcb4eabe6ee0b7eaf83d, type: 3}
-  _word: lego
-  _additionalLetters: radjy
+  _word: LEGO
+  _additionalLetters: RADJY
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 3, y: 3}

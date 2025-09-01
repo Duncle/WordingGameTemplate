@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Globalization;
+using UnityEngine;
 
 namespace DTT.GuessThePicture
 {
@@ -64,6 +65,22 @@ namespace DTT.GuessThePicture
         [Tooltip("The color for the letter options.")]
         private Color[] _letterColors;
 
+#if UNITY_EDITOR
+        private static readonly CultureInfo Ru = CultureInfo.GetCultureInfo("en-US");
+
+        private void OnValidate()
+        {
+            if (!string.IsNullOrWhiteSpace(_word))
+                _word = _word.Trim().ToUpper(Ru);
+
+            if (!string.IsNullOrWhiteSpace(_additionalLetters))
+            {
+                var s = _additionalLetters.Trim().ToUpper(Ru);
+                _additionalLetters = s;
+            }
+        }
+#endif    
+        
         /// <summary>
         /// The amount of hints available to reveal a square of the grid.
         /// </summary>

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 39_Picture Settings 37
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 6110af244d607f144a0904bde7cfe340, type: 3}
-  _word: kfc
-  _additionalLetters: mcdonl
+  _word: KFC
+  _additionalLetters: MCDONL
   _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 4, y: 4}

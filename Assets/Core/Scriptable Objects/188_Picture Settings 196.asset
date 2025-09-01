@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 188_Picture Settings 196
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: a950f7044fe31c84990c7b50cb0a014b, type: 3}
-  _word: caterham
-  _additionalLetters: lumbgod
+  _word: CATERHAM
+  _additionalLetters: LUMBGOD
   _hints: 8
   _revealsOnStart: 3
   _gridSize: {x: 7, y: 7}
-  _hidePicture: 0
+  _hidePicture: 1
   _letterColors:
   - {r: 0.113725506, g: 0.5982295, b: 0.88235295, a: 1}
   - {r: 0.99215686, g: 0.8128864, b: 0.5294118, a: 1}

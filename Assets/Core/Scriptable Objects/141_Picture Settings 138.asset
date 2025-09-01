@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 141_Picture Settings 138
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 63324c566199b3f4eb8b01c80fd262cd, type: 3}
-  _word: hyundai
-  _additionalLetters: loqzyo
+  _word: HYUNDAI
+  _additionalLetters: LOQZYO
   _hints: 7
   _revealsOnStart: 3
   _gridSize: {x: 6, y: 6}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 165_Picture Settings 162
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: b01043455bc608142b5ef5d402c012b4, type: 3}
-  _word: renault
-  _additionalLetters: ximqyzo
+  _word: RENAULT
+  _additionalLetters: XIMQYZO
   _hints: 8
   _revealsOnStart: 3
   _gridSize: {x: 7, y: 7}

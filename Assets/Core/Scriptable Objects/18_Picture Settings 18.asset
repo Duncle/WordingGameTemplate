@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 18_Picture Settings 18
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 6ef01579e5fa9714c8b637b430a03acc, type: 3}
-  _word: lipton
-  _additionalLetters: chaiz
+  _word: LIPTON
+  _additionalLetters: CHAIZ
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 3, y: 3}

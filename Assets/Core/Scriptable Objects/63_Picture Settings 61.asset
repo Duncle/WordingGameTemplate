@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 63_Picture Settings 61
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: d2cc4ada5d74a404583d00ee07e5c3d6, type: 3}
-  _word: tiffany
-  _additionalLetters: holand
+  _word: TIFFANY
+  _additionalLetters: HOLAND
   _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 70_Picture Settings 67
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 92fc1258b6aa1064799c7130249d5330, type: 3}
-  _word: uniqlo
-  _additionalLetters: balenc
+  _word: UNIQLO
+  _additionalLetters: BALENC
   _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 77_Picture Settings 74
   m_EditorClassIdentifier: 
   _picture: {fileID: -8403086049825574952, guid: 54f3b7a3de2340244addcb7cb85f4fc0, type: 3}
-  _word: adidas
-  _additionalLetters: pumabw
+  _word: ADIDAS
+  _additionalLetters: PUMABW
   _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

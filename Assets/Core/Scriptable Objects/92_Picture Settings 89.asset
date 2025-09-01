@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 92_Picture Settings 89
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 54de14a18dd4d7a42892a8cc88eb8dd0, type: 3}
-  _word: vans
-  _additionalLetters: iqrooz
+  _word: VANS
+  _additionalLetters: IQROOZ
   _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

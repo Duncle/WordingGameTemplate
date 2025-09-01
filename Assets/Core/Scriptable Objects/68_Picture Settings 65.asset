@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 68_Picture Settings 65
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: f2d0b26ede0eb734db936f63b315fb48, type: 3}
-  _word: kinder
-  _additionalLetters: nvasqm
+  _word: KINDER
+  _additionalLetters: NVASQM
   _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

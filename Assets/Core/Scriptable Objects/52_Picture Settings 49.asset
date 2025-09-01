@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 52_Picture Settings 49
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 58afd6e543d56dd42b94c50d684f4dde, type: 3}
-  _word: riot
-  _additionalLetters: tpascv
+  _word: RIOT
+  _additionalLetters: TPASCV
   _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 4, y: 4}

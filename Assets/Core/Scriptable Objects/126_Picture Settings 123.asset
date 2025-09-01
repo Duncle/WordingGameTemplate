@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 126_Picture Settings 123
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 239ce06f5a1c76a4ca4342a95ad14c11, type: 3}
-  _word: givenchy
-  _additionalLetters: kollat
+  _word: GIVENCHY
+  _additionalLetters: KOLLAT
   _hints: 7
   _revealsOnStart: 3
   _gridSize: {x: 6, y: 6}

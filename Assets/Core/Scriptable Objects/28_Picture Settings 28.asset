@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 28_Picture Settings 28
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: fdd93adcb71e2c94ba6eb50883b38069, type: 3}
-  _word: firefox
-  _additionalLetters: gzlquj
+  _word: FIREFOX
+  _additionalLetters: GZLQUJ
   _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 4, y: 4}

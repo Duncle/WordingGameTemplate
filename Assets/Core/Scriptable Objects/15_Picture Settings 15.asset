@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 15_Picture Settings 15
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: e896b520bc77d64478e3ee3f0f84efd7, type: 3}
-  _word: Balmain
-  _additionalLetters: hersp
+  _word: BALMAIN
+  _additionalLetters: HERSP
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 3, y: 3}

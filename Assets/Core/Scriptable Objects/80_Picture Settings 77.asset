@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 80_Picture Settings 77
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: 63a6363d4e33ca846af4c1a20998e4e3, type: 3}
-  _word: dodge
-  _additionalLetters: chivrp
+  _word: DODGE
+  _additionalLetters: CHIVRP
   _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

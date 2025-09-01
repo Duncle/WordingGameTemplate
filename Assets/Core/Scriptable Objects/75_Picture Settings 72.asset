@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 75_Picture Settings 72
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: e979c465d4795384883c943b81656912, type: 3}
-  _word: oldnavy
-  _additionalLetters: sclsiq
+  _word: OLDNAVY
+  _additionalLetters: SCLSIQ
   _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}
