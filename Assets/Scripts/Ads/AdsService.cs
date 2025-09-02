@@ -4,53 +4,58 @@ using UnityEngine;
 using YG;
 using Zenject;
 
-public class AdsService : MonoBehaviour
+namespace Ads
 {
-    public event Action<RewardAdsType> OnRewardAdsShown;
-
-    [SerializeField] private GuessThePictureInterface _guessThePictureInterface;
-    [SerializeField] private GameManager _gameManager;
-    [SerializeField] private int hintsToAddOnHintsButton = 3;
-    
-    private IAdsProvider _provider;
-    
-    [Inject]
-    public void Construct(IAdsProvider provider) => _provider = provider;
-
-    public void Start()
+    public class AdsService : MonoBehaviour
     {
-        _provider.Init();
-        _gameManager.Finish += GameManager_OnGameFinished;
-    }
+        public event Action<RewardAdsType> OnRewardAdsShown;
 
-    private void GameManager_OnGameFinished(GameResults gameResults)
-    {
-        if (gameResults.LevelIndex % 3 == 0) 
-            ShowInterstitialAd();
-    }
+        [SerializeField] private GuessThePictureInterface _guessThePictureInterface;
+        [SerializeField] private GameManager _gameManager;
+        [SerializeField] private int hintsToAddOnHintsButton = 3;
     
-    public void ShowInterstitialAd() => _provider.Interstitial.ShowInterstitialAd();
+        private IAdsProvider _provider;
     
-    public void ShowRewarded(RewardAdsType type)
-    {
-        _provider.Rewarded.ShowRewardedAd(type);
-        YG2.onRewardAdv += OnRewardedShown;
-    }
+        [Inject]
+        public void Construct(IAdsProvider provider) => _provider = provider;
 
-    private void OnRewardedShown(string rewardType)
-    {
-        RewardAdsType rewardAdsType = (RewardAdsType)Enum.Parse(typeof(RewardAdsType), rewardType);
-        
-        switch (rewardAdsType)
+        public void Start()
         {
-            case RewardAdsType.AddAdditionalHints:
-                int calculatedHintsToAdd = hintsToAddOnHintsButton;
-                _guessThePictureInterface.Hints += calculatedHintsToAdd;
-                _guessThePictureInterface.ChangeHintsAmount();
-                break;
-            default:
-                Debug.LogError("There is not such Ads type!");
-                break;
+            _provider.Init();
+            _gameManager.Finish += GameManager_OnGameFinished;
+        }
+
+        private void GameManager_OnGameFinished(GameResults gameResults)
+        {
+            if (gameResults.LevelIndex % 3 == 0) 
+                ShowInterstitialAd();
+        }
+    
+        public void ShowInterstitialAd() => _provider.Interstitial.ShowInterstitialAd();
+    
+        public void ShowRewarded(RewardAdsType type)
+        {
+            _provider.Rewarded.ShowRewardedAd(type);
+            YG2.onRewardAdv += OnRewardedShown;
+        }
+
+        private void OnRewardedShown(string rewardType)
+        {
+            RewardAdsType rewardAdsType = (RewardAdsType)Enum.Parse(typeof(RewardAdsType), rewardType);
+        
+            switch (rewardAdsType)
+            {
+                case RewardAdsType.AddAdditionalHints:
+                    int calculatedHintsToAdd = hintsToAddOnHintsButton;
+                    _guessThePictureInterface.Hints += calculatedHintsToAdd;
+                    _guessThePictureInterface.ChangeHintsAmount();
+                    break;
+                default:
+                    Debug.LogError("There is not such Ads type!");
+                    break;
+            }
+        
+            YG2.onRewardAdv -= OnRewardedShown;
         }
     }
 }
