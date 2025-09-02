@@ -22,6 +22,7 @@ namespace Ads
         public void Start()
         {
             _provider.Init();
+            Debug.Log("Ads Service Started");
             _gameManager.Finish += GameManager_OnGameFinished;
         }
 
