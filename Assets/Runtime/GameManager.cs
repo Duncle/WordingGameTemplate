@@ -108,7 +108,7 @@ namespace DTT.GuessThePicture
         /// </summary>
         private void OnDisable()
         {
-            _guessThePictureInterface.HintUsed += OnHintUsed;
+            _guessThePictureInterface.HintUsed -= OnHintUsed;
             _guessThePictureInterface.WordCompleted -= Completed;
         }
 

@@ -1,6 +1,4 @@
-using UnityEngine;
-
 public interface IStickyBannerAds
 {
-    void ShowStickyBannerAd();
+    void ShowStickyBannerAd(bool active = true);
 }

@@ -14,37 +14,66 @@ namespace Ads
         [SerializeField] private GameManager _gameManager;
         [SerializeField] private int hintsToAddOnHintsButton = 3;
     
+        [Header("Interstitial Show Threshold")]
+        [SerializeField] private int levelsBetweenInter = 3;
+        [SerializeField] private float minSecondsBetween = 60f;
+        
+        private int _levelsSinceInter = 0;
+        private float _nextAllowedTime = 0f;
+        private bool _interShowing = false;
+        
         private IAdsProvider _provider;
     
         [Inject]
         public void Construct(IAdsProvider provider) => _provider = provider;
 
-        public void Start()
+        public void OnEnable()
         {
             _provider.Init();
-            Debug.Log("Ads Service Started");
             _gameManager.Finish += GameManager_OnGameFinished;
+
+            _provider.Interstitial.Closed += OnInterClose;
+            _provider.Rewarded.RewardEarned += OnRewardedEarn;
+            
+        }
+
+        private void OnDisable() {
+            _gameManager.Finish -= GameManager_OnGameFinished;
+            
+            _provider.Interstitial.Closed -= OnInterClose;
+            _provider.Rewarded.RewardEarned -= OnRewardedEarn;
         }
 
         private void GameManager_OnGameFinished(GameResults gameResults)
         {
-            if (gameResults.LevelIndex % 3 == 0) 
-                ShowInterstitialAd();
-        }
-    
-        public void ShowInterstitialAd() => _provider.Interstitial.ShowInterstitialAd();
-    
-        public void ShowRewarded(RewardAdsType type)
-        {
-            _provider.Rewarded.ShowRewardedAd(type);
-            YG2.onRewardAdv += OnRewardedShown;
-        }
+            _levelsSinceInter++;
 
-        private void OnRewardedShown(string rewardType)
+            if (_interShowing) return;
+            if (_levelsSinceInter < levelsBetweenInter) return;
+            if (Time.realtimeSinceStartup < _nextAllowedTime) return;
+
+            _interShowing = true;
+            _provider.Interstitial.ShowInterstitialAd();
+        }
+    
+        private void ShowInterstitialAd() => _provider.Interstitial.ShowInterstitialAd();
+
+        private void OnInterClose(bool wasShown)
         {
-            RewardAdsType rewardAdsType = (RewardAdsType)Enum.Parse(typeof(RewardAdsType), rewardType);
+            _interShowing = false;
+
+            if (wasShown)
+            {
+                _levelsSinceInter = 0;
+                _nextAllowedTime = Time.realtimeSinceStartup + minSecondsBetween;
+            }
+        }
         
-            switch (rewardAdsType)
+        public void ShowRewarded(RewardAdsType type) => _provider.Rewarded.ShowRewardedAd(type);
+        
+        private void OnRewardedEarn(RewardAdsType rewardType)
+        {
+            switch (rewardType)
             {
                 case RewardAdsType.AddAdditionalHints:
                     int calculatedHintsToAdd = hintsToAddOnHintsButton;
@@ -55,8 +84,6 @@ namespace Ads
                     Debug.LogError("There is not such Ads type!");
                     break;
             }
-        
-            YG2.onRewardAdv -= OnRewardedShown;
         }
     }
 }
