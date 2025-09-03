@@ -16,7 +16,7 @@ namespace Ads
     
         [Header("Interstitial Show Threshold")]
         [SerializeField] private int levelsBetweenInter = 3;
-        [SerializeField] private float minSecondsBetween = 60f;
+        [SerializeField] private float minSecondsBetween = 10f;
         
         private int _levelsSinceInter = 0;
         private float _nextAllowedTime = 0f;

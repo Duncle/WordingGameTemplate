@@ -1,4 +1,5 @@
-﻿using DTT.MinigameBase;
+﻿using Core.Scripts.UI;
+using DTT.MinigameBase;
 using DTT.MinigameBase.Timer;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -45,6 +46,8 @@ namespace DTT.GuessThePicture
         [SerializeField]
         [Tooltip("Reference to the play button")]
         private HomeButton _homeButton;
+        
+        [SerializeField] private NextLevelButton _nextLevelButton;
 
         /// <summary>
         /// The text for the number of hints.
@@ -109,7 +112,7 @@ namespace DTT.GuessThePicture
         {
             UpdateHintText(_guessThePictureUI.Hints);
             _timer.Begin();
-            _homeButton.gameObject.SetActive(false);
+            //_homeButton.gameObject.SetActive(false);
             _pauseButton.OnStart();
             _guessThePictureManager.LevelIndex = _levelSelectHandler.CurrentLevel;
         }
@@ -124,6 +127,7 @@ namespace DTT.GuessThePicture
             GetComponent<AudioSource>().PlayOneShot(_correctClip);
             Debug.Log(results.ToString());
             _homeButton.gameObject.SetActive(true);
+            _nextLevelButton.gameObject.SetActive(true);
         }
 
         /// <summary>
@@ -143,12 +147,14 @@ namespace DTT.GuessThePicture
                 _guessThePictureManager.Pause();
                 _timer.Stop();
                 _homeButton.gameObject.SetActive(true);
+                _nextLevelButton.gameObject.SetActive(true);
             }
             else
             {
                 _guessThePictureManager.Continue();
                 _timer.Resume();
-                _homeButton.gameObject.SetActive(false);
+                //_homeButton.gameObject.SetActive(false);
+                _nextLevelButton.gameObject.SetActive(false);
             }
         }
 

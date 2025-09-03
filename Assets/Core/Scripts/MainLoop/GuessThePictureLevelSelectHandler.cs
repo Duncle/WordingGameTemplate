@@ -16,6 +16,24 @@ namespace DTT.GuessThePicture
         [Tooltip("List of different level settings.")]
         private List<GameSettings> _settings;
         
+        public bool HasNextLevel => CurrentLevel < _settings.Count;
+        
+        public void StartLevel(int levelNumber)
+        {
+            levelNumber = Mathf.Clamp(levelNumber, 1, _settings.Count);
+            // OnLevelSelected — protected в базовом классе, нам доступен
+            OnLevelSelected(new LevelData { levelNumber = levelNumber });
+        }
+        
+        public bool StartNextLevel()
+        {
+            if (!HasNextLevel)
+                return false;
+
+            StartLevel(CurrentLevel + 1);
+            return true;
+        }
+        
         /// <summary>
         /// Pick a <see cref="GameSettings"/> according to the level number.
         /// </summary>
