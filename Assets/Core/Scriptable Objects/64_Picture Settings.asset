@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: 08a4684da73995d42a57945eb40c9814, type: 3}
   _word: VOLKSWAGEN
   _additionalLetters: MAZDPI
-  _hints: 6
+  _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}
   _hidePicture: 1

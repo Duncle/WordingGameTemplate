@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: 8087e76db8a160d4898d17cf0cab6d40, type: 3}
   _word: TWITTER
   _additionalLetters: VKNAKE
-  _hints: 7
+  _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 6, y: 6}
   _hidePicture: 1

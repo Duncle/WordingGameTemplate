@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: 9a2bcb6935f033d43b31de979e031560, type: 3}
   _word: REEBOK
   _additionalLetters: ADISSU
-  _hints: 6
+  _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}
   _hidePicture: 1

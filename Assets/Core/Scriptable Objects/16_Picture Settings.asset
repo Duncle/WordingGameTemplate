@@ -15,8 +15,8 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: 123e7c06bd22ebc45967a7518340c2f4, type: 3}
   _word: EMIRATES
   _additionalLetters: UHPBY
-  _hints: 3
-  _revealsOnStart: 2
+  _hints: 2
+  _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}
   _hidePicture: 1
   _letterColors:

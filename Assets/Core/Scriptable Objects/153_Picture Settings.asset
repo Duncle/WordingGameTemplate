@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: 305dff75b8b00dc4293879eb41a8aa8e, type: 3}
   _word: FACEBOOK
   _additionalLetters: TWITTER
-  _hints: 8
+  _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 7, y: 7}
   _hidePicture: 1

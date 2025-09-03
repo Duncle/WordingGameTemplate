@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: e3f98b127baa9594cbda4f0a0c2004d1, type: 3}
   _word: LOREAL
   _additionalLetters: UMNUBQ
-  _hints: 6
+  _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}
   _hidePicture: 1

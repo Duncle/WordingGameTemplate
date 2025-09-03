@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: 41e870a4a8ca2fc438460692ce3ec4b5, type: 3}
   _word: TESLA
   _additionalLetters: BYWQVO
-  _hints: 6
+  _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}
   _hidePicture: 1

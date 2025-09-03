@@ -15,8 +15,8 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: c2d17709bf067cc4085d7cfda6e7cf12, type: 3}
   _word: ALIBABA
   _additionalLetters: PSKYZ
-  _hints: 3
-  _revealsOnStart: 2
+  _hints: 2
+  _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}
   _hidePicture: 1
   _letterColors:

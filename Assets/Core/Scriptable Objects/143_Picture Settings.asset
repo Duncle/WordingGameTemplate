@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: 92b026b591af653459bbe55a075892ff, type: 3}
   _word: BLIZZARD
   _additionalLetters: UEPLQO
-  _hints: 7
+  _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 6, y: 6}
   _hidePicture: 1

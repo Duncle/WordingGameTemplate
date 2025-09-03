@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 6_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 93a3c84ffe9bdcb4eabe6ee0b7eaf83d, type: 3}
+  _picture: {fileID: 21300000, guid: 12965dd149ca82247be730c04443c655, type: 3}
   _word: LEGO
   _additionalLetters: RADJY
-  _hints: 3
-  _revealsOnStart: 2
+  _hints: 2
+  _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}
   _hidePicture: 1
   _letterColors:

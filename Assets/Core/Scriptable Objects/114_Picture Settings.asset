@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: c02aa666a5e4ff24489746059568a575, type: 3}
   _word: ANDROID
   _additionalLetters: PPLETY
-  _hints: 7
+  _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 6, y: 6}
   _hidePicture: 1

@@ -15,8 +15,8 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: c002ab77649a8f94787b7dcd99acdee3, type: 3}
   _word: CROCS
   _additionalLetters: IFWPM
-  _hints: 3
-  _revealsOnStart: 2
+  _hints: 2
+  _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}
   _hidePicture: 1
   _letterColors:

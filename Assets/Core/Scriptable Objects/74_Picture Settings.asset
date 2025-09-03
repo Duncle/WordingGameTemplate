@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: ccb6152c7b05d4649a54686eead762ad, type: 3}
   _word: PAYPAL
   _additionalLetters: HFQNII
-  _hints: 6
+  _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}
   _hidePicture: 1

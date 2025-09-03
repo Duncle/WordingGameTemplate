@@ -16,7 +16,7 @@ MonoBehaviour:
   _word: APPLE
   _additionalLetters: NISSY
   _hints: 1
-  _revealsOnStart: 2
+  _revealsOnStart: 1
   _gridSize: {x: 2, y: 2}
   _hidePicture: 1
   _letterColors:

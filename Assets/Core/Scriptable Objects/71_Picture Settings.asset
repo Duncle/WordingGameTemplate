@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: 69b7a8b3f1a00144a90d4307e1309314, type: 3}
   _word: WARGAMING
   _additionalLetters: COLLYV
-  _hints: 6
+  _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}
   _hidePicture: 1

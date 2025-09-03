@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: 7b8cc8812cf2ee54e9bcedae2afa7615, type: 3}
   _word: KIA
   _additionalLetters: MOLNYZW
-  _hints: 8
+  _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 7, y: 7}
   _hidePicture: 1

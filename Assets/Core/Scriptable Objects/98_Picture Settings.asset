@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: edc4cbfafe813ac4d87cd2841e52ad94, type: 3}
   _word: OPEL
   _additionalLetters: IMZADV
-  _hints: 6
+  _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}
   _hidePicture: 1

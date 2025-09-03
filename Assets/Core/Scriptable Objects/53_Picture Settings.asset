@@ -15,8 +15,8 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: a628e6197f299c34f9b18c0a533d7d15, type: 3}
   _word: GILLETTE
   _additionalLetters: DIHJAS
-  _hints: 5
-  _revealsOnStart: 3
+  _hints: 3
+  _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}
   _hidePicture: 1
   _letterColors:

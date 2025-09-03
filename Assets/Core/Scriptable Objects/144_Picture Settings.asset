@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: 4bd671c5a80967e4ea0ed7d47a4a39b5, type: 3}
   _word: BURBERRY
   _additionalLetters: ABAPQI
-  _hints: 7
+  _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 6, y: 6}
   _hidePicture: 1

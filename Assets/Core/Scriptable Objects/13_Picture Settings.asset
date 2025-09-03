@@ -15,8 +15,8 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: 6457fd76ee5f3454e93b971625a57128, type: 3}
   _word: DISCORD
   _additionalLetters: UFPWN
-  _hints: 3
-  _revealsOnStart: 2
+  _hints: 2
+  _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}
   _hidePicture: 1
   _letterColors:

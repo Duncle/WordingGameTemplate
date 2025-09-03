@@ -15,8 +15,8 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: 29fae1ef9b85f224184ce4bad64d71d3, type: 3}
   _word: MARVEL
   _additionalLetters: DCJNBI
-  _hints: 5
-  _revealsOnStart: 3
+  _hints: 3
+  _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}
   _hidePicture: 1
   _letterColors:

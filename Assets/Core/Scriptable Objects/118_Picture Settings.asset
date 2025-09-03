@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: baf008007b72f6843bca6fe582653745, type: 3}
   _word: LEXUS
   _additionalLetters: MAZDAW
-  _hints: 7
+  _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 6, y: 6}
   _hidePicture: 1

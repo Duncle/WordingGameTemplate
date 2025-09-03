@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: de6af951db8e31d4ba2f2c86489315e0, type: 3}
   _word: NISSAN
   _additionalLetters: OMODYQ
-  _hints: 7
+  _hints: 5
   _revealsOnStart: 2
   _gridSize: {x: 8, y: 8}
   _hidePicture: 1

@@ -15,7 +15,7 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: fc258c1ae5bc62c4b8a1bc76183d887e, type: 3}
   _word: PAGANI
   _additionalLetters: YNOVOTU
-  _hints: 8
+  _hints: 6
   _revealsOnStart: 3
   _gridSize: {x: 7, y: 7}
   _hidePicture: 1

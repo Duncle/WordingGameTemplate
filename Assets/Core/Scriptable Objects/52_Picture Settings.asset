@@ -15,8 +15,8 @@ MonoBehaviour:
   _picture: {fileID: 21300000, guid: 58afd6e543d56dd42b94c50d684f4dde, type: 3}
   _word: RIOT
   _additionalLetters: TPASCV
-  _hints: 5
-  _revealsOnStart: 3
+  _hints: 3
+  _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}
   _hidePicture: 1
   _letterColors:
