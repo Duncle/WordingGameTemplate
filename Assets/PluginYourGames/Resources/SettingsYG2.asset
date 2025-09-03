@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InterstitialAdv:
     showFirstAdv: 1
-    interAdvInterval: 90
-    postponeCallByFail: 1
+    interAdvInterval: 0
+    postponeCallByFail: 0
     postponeCallTimer: 10
     labelAdvSimLabel: 0
   Localization:

@@ -53,7 +53,7 @@ namespace Ads
             if (Time.realtimeSinceStartup < _nextAllowedTime) return;
 
             _interShowing = true;
-            _provider.Interstitial.ShowInterstitialAd();
+            ShowInterstitialAd();
         }
     
         private void ShowInterstitialAd() => _provider.Interstitial.ShowInterstitialAd();
