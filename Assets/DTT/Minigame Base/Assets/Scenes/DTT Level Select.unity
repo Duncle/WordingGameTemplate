@@ -783,6 +783,7 @@ GameObject:
   - component: {fileID: 1567885895}
   - component: {fileID: 1567885897}
   - component: {fileID: 1567885896}
+  - component: {fileID: 1567885898}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -934,6 +935,32 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1567885898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567885892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1832708256, guid: f2ce1356528975a42942c7ecfb4189d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignoreErrors: 0
+  sourceMethod: 0
+  targetComponent: {fileID: 1567885897}
+  targetFieldName: font
+  isTargetProperty: 1
+  path: []
+  includePrivate: 0
+  targetTypeString: UnityEngine.Object
+  metaIdString: VBOwcHmbokeppg9D7YO85g
+  entityIdString: vpKhfS78Sk+fN39M+4qgKQ
+  fieldIdString: PrNT+MZhrUyKd9GS1DOqIA
+  functionCode: 0
+  functionClass: 
+  liveUpdate: 0
 --- !u!1 &1738108993
 GameObject:
   m_ObjectHideFlags: 0
