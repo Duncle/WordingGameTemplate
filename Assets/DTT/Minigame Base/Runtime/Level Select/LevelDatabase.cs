@@ -13,6 +13,11 @@ namespace DTT.MinigameBase.LevelSelect
     [CreateAssetMenu(fileName = "New Level Database", menuName = "DTT/Minigame Base/Level Database")]
     public class LevelDatabase : ScriptableObject
     {
+#if UNITY_WEBGL && !UNITY_EDITOR
+        [DllImport("__Internal")] private static extern int YG_ClearLocalStorageForKey(string key);
+        [DllImport("__Internal")] private static extern int YG_ClearAllLocalStorage();
+#endif
+        
         /// <summary>
         /// The initial amount of levels that will show up when creating the database.
         /// </summary>
@@ -193,7 +198,49 @@ namespace DTT.MinigameBase.LevelSelect
 
              _data = tempData;
         }
+        
+        [ContextMenu("❌ Wipe All Progress")]
+        private void ContextWipeProgress()
+        {
+            Debug.Log($"[LevelDatabase] Context menu wipe called on {name}");
+            WipeAllProgress(true); // очистка только этого проекта/базы
+            Debug.Log("[LevelDatabase] Progress wiped via ContextMenu");
+        }
+        
+        /// <summary>Полный сброс прогресса и повторная инициализация базы.</summary>
+        public void WipeAllProgress(bool onlyThisGame = true)
+        {
+#if UNITY_WEBGL && !UNITY_EDITOR
+            if (onlyThisGame)
+                YG_ClearLocalStorageForKey(_saveFolderName);
+            else
+                YG_ClearAllLocalStorage();
+#else
+            // На десктопе/мобилках чистим папку persistentDataPath/yourSaveFolder
+            var dir = Path.Combine(Application.persistentDataPath, _saveFolderName);
+            if (Directory.Exists(dir))
+                Directory.Delete(dir, true);
+            // На всякий случай чистим PlayerPrefs, если использовались
+            PlayerPrefs.DeleteAll();
+            PlayerPrefs.Save();
+#endif
+            // Восстанавливаем дефолтное состояние массива уровней в памяти
+            ResetInMemory();
+            Save(); // чтобы файл/запись снова создались с дефолтом
+        }
 
+        private void ResetInMemory()
+        {
+            // Строим массив заново по вашим правилам
+            _data = new LevelData[_levelCount];
+            for (int i = 0; i < _data.Length; i++)
+            {
+                _data[i].levelNumber = i + 1;
+                _data[i].locked = i >= _initialUnlocks;
+                _data[i].score = 0f;
+            }
+        }
+        
         /// <summary>
         /// Wraps array in class, so arrays can be saved using json.
         /// </summary>

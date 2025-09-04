@@ -482,7 +482,7 @@ MonoBehaviour:
   _restartButton: {fileID: 540134066}
   _pauseButton: {fileID: 515249233}
   _homeButton: {fileID: 7003061256919555833}
-  _nextLevelButton: {fileID: 0}
+  _nextLevelButton: {fileID: 3075000448791712013}
   _hintsText: {fileID: 1362689606}
   _timer: {fileID: 573293457}
   _correctClip: {fileID: 8300000, guid: 7956bff968f08904786ffb541e415219, type: 3}

@@ -47,6 +47,5 @@ namespace DTT.GuessThePicture
         /// <param name="result">The <see cref="GameResults"/> of the game.</param>
         /// <returns>The score as a float between 0 and 1.</returns>
         protected override float CalculateScore(GameResults result) => Mathf.InverseLerp(5, 0, result.WrongGuesses);
-        
     }
 }
