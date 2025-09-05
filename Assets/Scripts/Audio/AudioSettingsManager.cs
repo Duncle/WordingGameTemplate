@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Audio;
+using YG;
 
 public class AudioSettingsManager : MonoBehaviour
 {
@@ -7,7 +8,6 @@ public class AudioSettingsManager : MonoBehaviour
 
     [SerializeField] private AudioMixer mixer;
     [SerializeField] private string exposedParam = "MasterVolume";
-    private const string MutedKey = "audio_muted";
 
     private bool _muted;
 
@@ -17,23 +17,44 @@ public class AudioSettingsManager : MonoBehaviour
         I = this;
         DontDestroyOnLoad(gameObject);
 
-        _muted = PlayerPrefs.GetInt(MutedKey, 0) == 1;
+        // применяем значение из сейва (на старте там дефолт true)
+        ApplyFromSaves();
+
+        // если сейвы подтянутся асинхронно — применим повторно
+        YG2.onGetSDKData += ApplyFromSaves;   // отписка ниже в OnDestroy
+    }
+
+    private void OnDestroy()
+    {
+        if (I == this) YG2.onGetSDKData -= ApplyFromSaves;
+    }
+
+    private void ApplyFromSaves()
+    {
+        bool soundOn = (YG2.saves == null) ? true : YG2.saves.isSoundEnabled;
+        _muted = !soundOn;
         ApplyVolume();
     }
 
     public void ToggleMute()
     {
         _muted = !_muted;
-        PlayerPrefs.SetInt(MutedKey, _muted ? 1 : 0);
-        PlayerPrefs.Save();
+        if (YG2.saves != null)
+        {
+            YG2.saves.isSoundEnabled = !_muted;
+            YG2.SaveProgress();
+        }
         ApplyVolume();
     }
 
     public void SetMuted(bool value)
     {
         _muted = value;
-        PlayerPrefs.SetInt(MutedKey, _muted ? 1 : 0);
-        PlayerPrefs.Save();
+        if (YG2.saves != null)
+        {
+            YG2.saves.isSoundEnabled = !_muted;
+            YG2.SaveProgress();
+        }
         ApplyVolume();
     }
 
@@ -41,7 +62,6 @@ public class AudioSettingsManager : MonoBehaviour
 
     public void MuteForAd(bool value)
     {
-        // Временно глушим на время рекламы, не меняя пользовательский флаг
         mixer.SetFloat(exposedParam, value ? -80f : (_muted ? -80f : 0f));
     }
 
