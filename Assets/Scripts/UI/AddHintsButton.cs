@@ -1,4 +1,6 @@
+using System;
 using Ads;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 

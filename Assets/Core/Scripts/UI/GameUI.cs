@@ -76,7 +76,7 @@ namespace DTT.GuessThePicture
         [SerializeField]
         [Tooltip(" The level select handler of that game")]
         private GuessThePictureLevelSelectHandler _levelSelectHandler;
-
+        
         /// <summary>
         /// On enable subscribes to required events.
         /// </summary>

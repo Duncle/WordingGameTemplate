@@ -13,11 +13,6 @@ namespace DTT.MinigameBase.LevelSelect
     [CreateAssetMenu(fileName = "New Level Database", menuName = "DTT/Minigame Base/Level Database")]
     public class LevelDatabase : ScriptableObject
     {
-#if UNITY_WEBGL && !UNITY_EDITOR
-        [DllImport("__Internal")] private static extern int YG_ClearLocalStorageForKey(string key);
-        [DllImport("__Internal")] private static extern int YG_ClearAllLocalStorage();
-#endif
-        
         /// <summary>
         /// The initial amount of levels that will show up when creating the database.
         /// </summary>
@@ -50,7 +45,7 @@ namespace DTT.MinigameBase.LevelSelect
         /// The level data inside of the database.
         /// </summary>
         public ReadOnlyCollection<LevelData> Data => Array.AsReadOnly(_data);
-
+        
 #if UNITY_WEBGL && !UNITY_EDITOR
         /// <summary>
         /// Gives the data to the WebGLDataSaver and passes this on to the browser.
@@ -210,12 +205,6 @@ namespace DTT.MinigameBase.LevelSelect
         /// <summary>Полный сброс прогресса и повторная инициализация базы.</summary>
         public void WipeAllProgress(bool onlyThisGame = true)
         {
-#if UNITY_WEBGL && !UNITY_EDITOR
-            if (onlyThisGame)
-                YG_ClearLocalStorageForKey(_saveFolderName);
-            else
-                YG_ClearAllLocalStorage();
-#else
             // На десктопе/мобилках чистим папку persistentDataPath/yourSaveFolder
             var dir = Path.Combine(Application.persistentDataPath, _saveFolderName);
             if (Directory.Exists(dir))
@@ -223,7 +212,6 @@ namespace DTT.MinigameBase.LevelSelect
             // На всякий случай чистим PlayerPrefs, если использовались
             PlayerPrefs.DeleteAll();
             PlayerPrefs.Save();
-#endif
             // Восстанавливаем дефолтное состояние массива уровней в памяти
             ResetInMemory();
             Save(); // чтобы файл/запись снова создались с дефолтом

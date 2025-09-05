@@ -1,3 +1,3 @@
-Build path: C:/Unity Projects/Builds/WordingGameTemplate
-Build number: 8
+Build path: G:/UnityProjects/0_vizg/WGTemplate
+Build number: 9
 PluginYG version: 2.005
