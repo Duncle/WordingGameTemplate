@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 114_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: c02aa666a5e4ff24489746059568a575, type: 3}
-  _word: ANDROID
-  _additionalLetters: PPLETY
+  _picture: {fileID: 21300000, guid: 864a2946633e8f24b99d0b283f3e54b8, type: 3}
+  _word: CARTIER
+  _additionalLetters: POYNLY
   _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 6, y: 6}
