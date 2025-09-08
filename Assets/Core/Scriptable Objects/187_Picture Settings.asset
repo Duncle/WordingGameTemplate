@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 187_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: a7d14b6d8d09c8340b3495b9533e39e5, type: 3}
+  _picture: {fileID: 21300000, guid: b521f2cd5f3a0704faa431b36e4b8ec4, type: 3}
   _word: RAZER
   _additionalLetters: TROGJYM
   _hints: 6

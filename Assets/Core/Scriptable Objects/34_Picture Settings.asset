@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: c2a2dc2228988a541aa534f9fb68d2c1, type: 3}
   _word: CALVINKLEIN
-  _additionalLetters: ROBXGY
+  _additionalLetters: ROBX
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

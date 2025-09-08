@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 124_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 6c3ccbddf2c2b07498c91d3a99951db7, type: 3}
-  _word: WIKIPEDIA
-  _additionalLetters: LQHXZN
+  _picture: {fileID: 21300000, guid: c2d17709bf067cc4085d7cfda6e7cf12, type: 3}
+  _word: ALIBABA
+  _additionalLetters: DOLHYZ
   _hints: 5
   _revealsOnStart: 3
   _gridSize: {x: 6, y: 6}

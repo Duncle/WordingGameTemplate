@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chalkboard BG_0: -7194338622876197414
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 46_Picture Settings
   m_EditorClassIdentifier: 
   _picture: {fileID: 21300000, guid: eb0d62cc90a7c314ca30fc18f3298c1d, type: 3}
-  _word: NATUSVINCERE
+  _word: NAVI
   _additionalLetters: OYOOMP
   _hints: 3
   _revealsOnStart: 2

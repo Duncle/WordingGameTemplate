@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 5_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 76230f57674d1f440a79bf6a63c7ce1d, type: 3}
-  _word: APPLE
-  _additionalLetters: NISSY
+  _picture: {fileID: 21300000, guid: 82a201921072e444e9c2f1e4bbc35f90, type: 3}
+  _word: LINUX
+  _additionalLetters: DOGMA
   _hints: 1
   _revealsOnStart: 1
   _gridSize: {x: 2, y: 2}

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 9_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 47bb60f5261a5b54bb54b62504df18b3, type: 3}
-  _word: TELEGRAM
-  _additionalLetters: WITASY
+  _picture: {fileID: 2503102620304438486, guid: aa74a8f2cc5e0cd45aa50f36d73e7a37, type: 3}
+  _word: NASA
+  _additionalLetters: PCGOM
   _hints: 2
   _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}

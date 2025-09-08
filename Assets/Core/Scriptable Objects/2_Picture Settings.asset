@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 2_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: fb4276f55310b59479440a2b0721e511, type: 3}
-  _word: PORSCHE
-  _additionalLetters: WQIYL
+  _picture: {fileID: 21300000, guid: 22a16842153ea0d4291c661687fcd61d, type: 3}
+  _word: SNICKERS
+  _additionalLetters: RADJY
   _hints: 1
   _revealsOnStart: 1
   _gridSize: {x: 2, y: 2}
