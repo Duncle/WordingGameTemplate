@@ -15,66 +15,57 @@ namespace DTT.GuessThePicture
         /// <summary>
         /// Reference to the game manager of this scene.
         /// </summary>
-        [SerializeField]
-        [Tooltip("Reference to the game manager of this scene")]
+        [SerializeField] [Tooltip("Reference to the game manager of this scene")]
         private GameManager _guessThePictureManager;
 
         /// <summary>
         /// Reference to the guess the picture UI of this scene.
         /// </summary>
-        [SerializeField]
-        [Tooltip("Reference to the guess the picture UI of this scene")]
+        [SerializeField] [Tooltip("Reference to the guess the picture UI of this scene")]
         private GuessThePictureInterface _guessThePictureUI;
 
         /// <summary>
         /// Reference to the restart button.
         /// </summary>
-        [SerializeField]
-        [Tooltip("Reference to the restart button")]
+        [SerializeField] [Tooltip("Reference to the restart button")]
         private RestartButton _restartButton;
 
         /// <summary>
         /// Reference to the pause button.
         /// </summary>
-        [SerializeField]
-        [Tooltip("Reference to the pause button")]
+        [SerializeField] [Tooltip("Reference to the pause button")]
         private PauseButton _pauseButton;
 
         /// <summary>
         /// Reference to the home button.
         /// </summary>
-        [SerializeField]
-        [Tooltip("Reference to the play button")]
+        [SerializeField] [Tooltip("Reference to the play button")]
         private HomeButton _homeButton;
-        
+
         [SerializeField] private NextLevelButton _nextLevelButton;
 
         /// <summary>
         /// The text for the number of hints.
         /// </summary>
-        [SerializeField]
-        [Tooltip("The text for the number of hints")]
+        [SerializeField] [Tooltip("The text for the number of hints")]
         private Text _hintsText;
 
         /// <summary>
         /// The timer for the UI of the game.
         /// </summary>
-        [SerializeField]
-        [Tooltip("The timer for the UI of the game")]
+        [SerializeField] [Tooltip("The timer for the UI of the game")]
         private Timer _timer;
 
         /// <summary>
         /// Sound effect for when the correct answer is given.
         /// </summary>
-        [SerializeField]
-        [Tooltip("Sound effect for when the correct answer is given")]
+        [SerializeField] [Tooltip("Sound effect for when the correct answer is given")]
         private AudioClip _correctClip;
-        
+
         /// <summary>
         ///  The _levelSelectHandler field is used to navigate back to the level selection on finish.
         /// </summary>
-        [SerializeField]
-        [Tooltip(" The level select handler of that game")]
+        [SerializeField] [Tooltip(" The level select handler of that game")]
         private GuessThePictureLevelSelectHandler _levelSelectHandler;
         
         /// <summary>
