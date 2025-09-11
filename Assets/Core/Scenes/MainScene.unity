@@ -646,6 +646,8 @@ MonoBehaviour:
   _timer: {fileID: 573293457}
   _correctClip: {fileID: 8300000, guid: 7956bff968f08904786ffb541e415219, type: 3}
   _levelSelectHandler: {fileID: 217188198}
+  _addHintsButton: {fileID: 1720075209}
+  _hintsUiRoot: {fileID: 1480534212}
 --- !u!82 &181154631
 AudioSource:
   m_ObjectHideFlags: 0

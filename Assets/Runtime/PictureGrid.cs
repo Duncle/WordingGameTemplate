@@ -34,6 +34,20 @@ namespace DTT.GuessThePicture
         /// </summary>
         /// <param name="gridSize">The size of the grid.</param>
         /// <param name="revealsOnStart">The amount of grid squares to reveal when the game starts.</param>
+        
+        public int ClosedCount
+        {
+            get
+            {
+                int count = 0;
+                for (int i = 0; i < _gridElements.Count; i++)
+                    if (!_gridElements[i].Faded) count++;
+                return count;
+            }
+        }
+        
+        public bool HasClosed => ClosedCount > 0;
+        
         public void InstantiateGridElements(Vector2Int gridSize, int revealsOnStart)
         {
             FlexibleGridLayout currentGridLayout = this.transform.GetComponent<FlexibleGridLayout>();

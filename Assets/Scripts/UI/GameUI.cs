@@ -68,6 +68,9 @@ namespace DTT.GuessThePicture
         [SerializeField] [Tooltip(" The level select handler of that game")]
         private GuessThePictureLevelSelectHandler _levelSelectHandler;
         
+        [SerializeField] private AddHintsButton _addHintsButton;
+        [SerializeField] private GameObject _hintsUiRoot;
+        
         /// <summary>
         /// On enable subscribes to required events.
         /// </summary>
@@ -106,6 +109,8 @@ namespace DTT.GuessThePicture
             //_homeButton.gameObject.SetActive(false);
             _pauseButton.OnStart();
             _guessThePictureManager.LevelIndex = _levelSelectHandler.CurrentLevel;
+            
+            ToggleHintsUI(_guessThePictureUI.ClosedSquaresLeft > 0);
         }
 
         /// <summary>
@@ -119,14 +124,34 @@ namespace DTT.GuessThePicture
             Debug.Log(results.ToString());
             _homeButton.gameObject.SetActive(true);
             _nextLevelButton.gameObject.SetActive(true);
+            
+            ToggleHintsUI(false);
         }
 
         /// <summary>
         /// Updates the text for the number of hints.
         /// </summary>
         /// <param name="currentHints">The amount of current hints.</param>
-        private void UpdateHintText(int currentHints) => _hintsText.text = currentHints.ToString();
+        private void UpdateHintText(int currentHints)
+        {
+            _hintsText.text = currentHints.ToString();
+            
+            bool hasClosed = _guessThePictureUI.ClosedSquaresLeft > 0;
+            ToggleHintsUI(hasClosed);
+        }
 
+        private void ToggleHintsUI(bool show)
+        {
+            // если задан общий контейнер — управляем им
+            if (_hintsUiRoot != null)
+                _hintsUiRoot.SetActive(show);
+            else if (_hintsText != null)
+                _hintsText.gameObject.SetActive(show);
+
+            if (_addHintsButton != null)
+                _addHintsButton.gameObject.SetActive(show);
+        }
+        
         /// <summary>
         /// Toggles the paused state of the game.
         /// </summary>

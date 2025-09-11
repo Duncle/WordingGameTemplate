@@ -115,6 +115,8 @@ namespace DTT.GuessThePicture
             get => _hints;
             set => _hints = value;
         }
+        
+        public int ClosedSquaresLeft => _pictureGrid != null ? _pictureGrid.ClosedCount : 0;
 
         /// <summary>
         /// Generates the UI elements of the mini game.
