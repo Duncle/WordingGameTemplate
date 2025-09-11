@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 9_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 2503102620304438486, guid: aa74a8f2cc5e0cd45aa50f36d73e7a37, type: 3}
+  _picture: {fileID: 21300000, guid: 0fdaec5a719f2634ba0d9bc33c090689, type: 3}
   _word: NASA
   _additionalLetters: PCGOM
   _hints: 2

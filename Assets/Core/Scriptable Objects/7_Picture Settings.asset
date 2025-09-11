@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 7_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 4ff8146e46e25c347b0c89a5c85c5d45, type: 3}
-  _word: YOUTUBE
+  _picture: {fileID: 21300000, guid: ca4613ac2fe89e4478ab88aaf3102ccb, type: 3}
+  _word: CITROEN
   _additionalLetters: HULLA
   _hints: 2
   _revealsOnStart: 1

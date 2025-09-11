@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4ff8146e46e25c347b0c89a5c85c5d45
+guid: 89c0b9f8cbcdfef448e813ffa554a7e7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5435112146068930076
-    second: youtube1_0
+      213: 6615338598422647845
+    second: ford_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: youtube1_0
+      name: ford_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1e79dc43b56d6b40800000000000000
-      internalID: 5435112146068930076
+      spriteID: 52499ebd7676ecb50800000000000000
+      internalID: 6615338598422647845
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      youtube1_0: 5435112146068930076
+      ford_0: 6615338598422647845
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
