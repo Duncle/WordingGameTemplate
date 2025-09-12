@@ -36,5 +36,12 @@ namespace Localization
             Debug.Log("There is no translation for this text");
             return string.Empty;
         }
+        
+        public static bool IsArabicLike(string locale)
+        {
+            if (string.IsNullOrEmpty(locale)) return false;
+            locale = locale.ToLowerInvariant();
+            return locale.StartsWith("ar") || locale.StartsWith("fa") || locale.StartsWith("ur") || locale.StartsWith("he");
+        }
     }
 }

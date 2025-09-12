@@ -1,6 +1,9 @@
-﻿using Core.Scripts.UI;
+﻿using BansheeGz.BGDatabase;
+using Core.Scripts.UI;
 using DTT.MinigameBase;
 using DTT.MinigameBase.Timer;
+using Localization;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
@@ -48,8 +51,14 @@ namespace DTT.GuessThePicture
         /// The text for the number of hints.
         /// </summary>
         [SerializeField] [Tooltip("The text for the number of hints")]
-        private Text _hintsText;
+        private TMP_Text _hintsText;
 
+        [Header("Localization")]
+        [SerializeField] private string _fmtId = "LPYFDsjf/U6ypu3QgwxNYw";
+        [SerializeField] private string _table = "LT_UI";
+        [SerializeField] private string _field = "localizedString";
+        [Space(5)]
+        
         /// <summary>
         /// The timer for the UI of the game.
         /// </summary>
@@ -134,10 +143,21 @@ namespace DTT.GuessThePicture
         /// <param name="currentHints">The amount of current hints.</param>
         private void UpdateHintText(int currentHints)
         {
-            _hintsText.text = currentHints.ToString();
-            
-            bool hasClosed = _guessThePictureUI.ClosedSquaresLeft > 0;
-            ToggleHintsUI(hasClosed);
+            var fmt = LanguageManager.GetLocalizedName(_fmtId, _table, _field);
+            if (string.IsNullOrEmpty(fmt)) Debug.LogError("There is no such field in DB!");
+
+            var locale = BGRepo.I.Addons.Get<BGAddonLocalization>().CurrentLocale;
+            string num = currentHints.ToString();
+
+            _hintsText.text = string.Format(fmt, num);
+
+            //Если необходимо ещё и выравнивание/RTL с таблицы Locale:
+            var row = BGRepo.I["Localization"].FindEntity(e => e.Get<string>("name") == locale);
+            bool rtl = row?.Get<bool>("isRightToLeft") ?? LanguageManager.IsArabicLike(locale);
+            _hintsText.isRightToLeftText = rtl;
+            _hintsText.alignment = rtl ? TextAlignmentOptions.Right : TextAlignmentOptions.Left;
+
+            ToggleHintsUI(_guessThePictureUI.ClosedSquaresLeft > 0);
         }
 
         private void ToggleHintsUI(bool show)
