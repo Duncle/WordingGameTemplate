@@ -16,43 +16,37 @@ namespace DTT.GuessThePicture
         /// <summary>
         /// Prefab for the letters.
         /// </summary>
-        [SerializeField]
-        [Tooltip("Prefab for the letters.")]
+        [SerializeField] [Tooltip("Prefab for the letters.")]
         private GuessLetter _letterPrefab;
 
         /// <summary>
         /// Prefab for the snap points.
         /// </summary>
-        [SerializeField]
-        [Tooltip("Prefab for the snap points.")]
+        [SerializeField] [Tooltip("Prefab for the snap points.")]
         private SnapPoint _snapPointPrefab;
 
         /// <summary>
         /// <see cref="GuessLetterBoard"/> where the letters snap to when not used.
         /// </summary>
-        [SerializeField]
-        [Tooltip("Snap board where the letters snap to when not used.")]
+        [SerializeField] [Tooltip("Snap board where the letters snap to when not used.")]
         private GuessLetterBoard _letterSnapBoard;
 
         /// <summary>
         /// Layout group for the snap points.
         /// </summary>
-        [SerializeField]
-        [Tooltip("Layout group for the snap points.")]
+        [SerializeField] [Tooltip("Layout group for the snap points.")]
         private GridLayoutGroup _snapLayoutGroup;
 
         /// <summary>
         /// The picture to guess.
         /// </summary>
-        [SerializeField]
-        [Tooltip("The picture to guess.")]
+        [SerializeField] [Tooltip("The picture to guess.")]
         private Image _picture;
 
         /// <summary>
         /// The grid that covers the picture.
         /// </summary>
-        [SerializeField]
-        [Tooltip("The grid that covers the picture.")]
+        [SerializeField] [Tooltip("The grid that covers the picture.")]
         private PictureGrid _pictureGrid;
 
         /// <summary>
@@ -64,6 +58,7 @@ namespace DTT.GuessThePicture
         /// Invoked when a hint is used.
         /// </summary>
         public event Action<int> HintUsed;
+
         public event Action<int> HinAmountChanged;
 
         /// <summary>
@@ -115,7 +110,7 @@ namespace DTT.GuessThePicture
             get => _hints;
             set => _hints = value;
         }
-        
+
         public int ClosedSquaresLeft => _pictureGrid != null ? _pictureGrid.ClosedCount : 0;
 
         /// <summary>
@@ -131,7 +126,7 @@ namespace DTT.GuessThePicture
             // Clears the grid and sets it if the picture should be hidden.
             _pictureGrid.ClearGrid();
 
-            if (settings.HidePicture) 
+            if (settings.HidePicture)
                 _pictureGrid.InstantiateGridElements(settings.GridSize, settings.RevealsOnStart);
 
             ClearLetterBoard();
@@ -177,11 +172,13 @@ namespace DTT.GuessThePicture
                 _letters.Add(letterUI);
                 letterUI.Drop += OnLetterDropped;
                 letterUI.PickUp += OnLetterPickedUp;
-                letterUI.Initialize(_currentGuessLetters[i], settings.LetterColors[Random.Range(0, settings.LetterColors.Length)]);
+                letterUI.Initialize(_currentGuessLetters[i],
+                    settings.LetterColors[Random.Range(0, settings.LetterColors.Length)]);
                 _letterSnapBoard.AddSnapObject(letterUI, true);
 
                 // Sets the size of the letters equal to the snap points.
-                letterUI.RectTransform.sizeDelta = new Vector2(letterSizeX - _snapLayoutGroup.spacing.x, gridSizeHeight);
+                letterUI.RectTransform.sizeDelta =
+                    new Vector2(letterSizeX - _snapLayoutGroup.spacing.x, gridSizeHeight);
             }
         }
 
@@ -283,7 +280,7 @@ namespace DTT.GuessThePicture
                 // Sets the letter back on the letter board.
                 letter.transform.SetParent(_letterSnapBoard.transform);
                 _letterSnapBoard.AddSnapObject(letter);
-                letter.LastSnapPoint= null;
+                letter.LastSnapPoint = null;
             }
         }
 
@@ -313,7 +310,9 @@ namespace DTT.GuessThePicture
 
             // Check which overlapping snap point is the closest.
             Vector2 letterWorldPos = letter.RectTransform.GetWorldRect().center;
-            SnapPoint bestOverlap = overlapping.OrderBy(snappedObjectEntry => Vector2.Distance(letterWorldPos, snappedObjectEntry.RectTransform.GetWorldRect().center)).FirstOrDefault();
+            SnapPoint bestOverlap = overlapping.OrderBy(snappedObjectEntry =>
+                    Vector2.Distance(letterWorldPos, snappedObjectEntry.RectTransform.GetWorldRect().center))
+                .FirstOrDefault();
             bestOverlap.SnapLetter(letter);
         }
 
