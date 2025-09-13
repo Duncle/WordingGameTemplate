@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 59_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 424093e717c84b043bb7c330958e4b1b, type: 3}
+  _picture: {fileID: 21300000, guid: 758bfbc600a87994d9c425c597898f5b, type: 3}
   _word: WHATSAPP
   _additionalLetters: MCOLUW
   _hints: 3
