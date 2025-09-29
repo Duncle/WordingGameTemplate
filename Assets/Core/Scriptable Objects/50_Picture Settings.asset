@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 50_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: fc0714db4e15ab44693f7e6b6ff9d129, type: 3}
-  _word: WILSON
+  _picture: {fileID: -1282582397398358035, guid: 60c7d265cc078004b8fa9b07c3e9d676, type: 3}
+  _word: FROSTPUNK
   _additionalLetters: UAQGYV
   _hints: 3
   _revealsOnStart: 2

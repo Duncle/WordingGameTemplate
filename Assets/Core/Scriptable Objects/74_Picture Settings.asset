@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 74_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: ccb6152c7b05d4649a54686eead762ad, type: 3}
-  _word: PAYPAL
-  _additionalLetters: HFQNII
+  _picture: {fileID: -3901837025247630539, guid: 5d44fe10dcff31e4ea78554f6082d183, type: 3}
+  _word: DEADSPACE
+  _additionalLetters: MYZLO
   _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 24_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: fb4276f55310b59479440a2b0721e511, type: 3}
-  _word: PORSCHE
-  _additionalLetters: DIKATL
+  _picture: {fileID: 9103355834831096752, guid: d16b144a8cdfff94d935260b3b2edb69, type: 3}
+  _word: FALLGUYS
+  _additionalLetters: DIKTL
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

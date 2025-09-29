@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 1_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 85ef7d8a8f10146439feaa400d7c263d, type: 3}
-  _word: COCACOLA
+  _picture: {fileID: -8327657826380708006, guid: c31e99063bbc3cf48b6490b390674d2d, type: 3}
+  _word: MINECRAFT
   _additionalLetters: RUBYQ
   _hints: 1
   _revealsOnStart: 1

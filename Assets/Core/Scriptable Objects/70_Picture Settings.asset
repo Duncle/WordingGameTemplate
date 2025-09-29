@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 70_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 92fc1258b6aa1064799c7130249d5330, type: 3}
-  _word: UNIQLO
-  _additionalLetters: BALENC
+  _picture: {fileID: 3106148213190456378, guid: d961fc60ae185b243a619eb61829bd6f, type: 3}
+  _word: ITTAKESTWO
+  _additionalLetters: MCYJ
   _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

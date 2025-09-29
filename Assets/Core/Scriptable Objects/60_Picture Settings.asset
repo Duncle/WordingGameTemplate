@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 60_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 24d1a43edff9f85428f435efc640c6f9, type: 3}
-  _word: PRINGLES
+  _picture: {fileID: 9119414098855660196, guid: 474c3c300423d4a4895bd03c3189ff7d, type: 3}
+  _word: BATTLEFIELD
   _additionalLetters: UBANEV
   _hints: 3
   _revealsOnStart: 2

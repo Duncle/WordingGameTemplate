@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 97_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 4ddff800e1a64704d87af3cd33f760b8, type: 3}
-  _word: TOBLERONE
-  _additionalLetters: ASAK
+  _picture: {fileID: -9118613090352723408, guid: a282a088c6d51544d8d6c14b3e7c7a74, type: 3}
+  _word: TROPICO
+  _additionalLetters: ASAL
   _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

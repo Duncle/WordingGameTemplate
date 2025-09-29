@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 99_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 9a2bcb6935f033d43b31de979e031560, type: 3}
-  _word: REEBOK
-  _additionalLetters: ADISSU
+  _picture: {fileID: 4741562083116700890, guid: 28d9f96ffa28589468f181452eefdaf1, type: 3}
+  _word: NHL
+  _additionalLetters: UBIS
   _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

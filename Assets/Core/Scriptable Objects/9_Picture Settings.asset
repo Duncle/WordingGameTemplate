@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 9_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 0fdaec5a719f2634ba0d9bc33c090689, type: 3}
-  _word: NASA
-  _additionalLetters: PCGOM
+  _picture: {fileID: -7384561085570643890, guid: bee367a89d12abb4bb454dbcd3f6472c, type: 3}
+  _word: PUBG
+  _additionalLetters: DAHJ
   _hints: 2
   _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}

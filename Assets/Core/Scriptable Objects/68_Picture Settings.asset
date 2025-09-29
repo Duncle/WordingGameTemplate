@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 68_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: f2d0b26ede0eb734db936f63b315fb48, type: 3}
-  _word: KINDER
-  _additionalLetters: NVASQM
+  _picture: {fileID: 6436304474697620235, guid: f4337e1d46a35f241ab0a93d02cefb65, type: 3}
+  _word: HEROES3
+  _additionalLetters: LADYN
   _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 88_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 52d648e979452a142b32f17c8908ffd3, type: 3}
-  _word: TWICH
+  _picture: {fileID: 6402241711690651594, guid: 4b79fc28c9dce7444a486e290d6528f3, type: 3}
+  _word: TERRARIA
   _additionalLetters: PERSYM
   _hints: 4
   _revealsOnStart: 3

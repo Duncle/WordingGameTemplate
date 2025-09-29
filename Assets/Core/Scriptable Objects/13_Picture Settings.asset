@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 13_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 6457fd76ee5f3454e93b971625a57128, type: 3}
-  _word: DISCORD
+  _picture: {fileID: 4553489221681102026, guid: 39c0998f2ca07614b9acc9e7d81d1182, type: 3}
+  _word: HEARTHSTONE
   _additionalLetters: UFPWN
   _hints: 2
   _revealsOnStart: 1

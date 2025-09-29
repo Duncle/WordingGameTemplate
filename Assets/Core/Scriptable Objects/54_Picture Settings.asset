@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 54_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 89c0b9f8cbcdfef448e813ffa554a7e7, type: 3}
-  _word: FORD
-  _additionalLetters: UARAI
+  _picture: {fileID: -984603914441709344, guid: 10a1b6b58641d38448664341efe6554d, type: 3}
+  _word: BIOSHOCK
+  _additionalLetters: UARA
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

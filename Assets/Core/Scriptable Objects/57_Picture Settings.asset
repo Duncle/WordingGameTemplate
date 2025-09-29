@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 57_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: fa567dc67b4a848469c2aea9813f241b, type: 3}
-  _word: TEAMSPEAK
-  _additionalLetters: DISCOR
+  _picture: {fileID: 5933889696690235040, guid: 05115d81f1b3ebc45808617b225a3657, type: 3}
+  _word: METRO2033
+  _additionalLetters: DISCR
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

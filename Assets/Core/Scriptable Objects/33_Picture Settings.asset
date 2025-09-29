@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 33_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 975bd81841926874cbe471462ae883c4, type: 3}
-  _word: DIOR
-  _additionalLetters: BADULA
+  _picture: {fileID: -6335549031092146767, guid: 93bb659706bced440a5b5aa47a22e450, type: 3}
+  _word: DEUSEX
+  _additionalLetters: BADLA
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

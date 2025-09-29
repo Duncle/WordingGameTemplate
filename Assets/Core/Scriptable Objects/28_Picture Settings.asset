@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 28_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 47bb60f5261a5b54bb54b62504df18b3, type: 3}
-  _word: TELEGRAM
-  _additionalLetters: OSYJQN
+  _picture: {fileID: 795555031509100070, guid: 0c6173289c44d3a41beaf9c52fb45978, type: 3}
+  _word: MARIO
+  _additionalLetters: JQZDY
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

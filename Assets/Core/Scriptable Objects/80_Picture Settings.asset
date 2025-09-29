@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 80_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 63a6363d4e33ca846af4c1a20998e4e3, type: 3}
-  _word: DODGE
-  _additionalLetters: CHIVRP
+  _picture: {fileID: -771954516996298274, guid: 527ffdb8b8fd28f4caa293497bd33531, type: 3}
+  _word: NEEDFORSPEED
+  _additionalLetters: CHJPL
   _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

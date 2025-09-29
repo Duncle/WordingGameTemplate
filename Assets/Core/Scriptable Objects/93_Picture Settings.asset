@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 93_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 78779c296324be74abd6ba0f103d9926, type: 3}
-  _word: ROLLSROYCE
-  _additionalLetters: MASHIN
+  _picture: {fileID: -1396293252847300638, guid: 7904758191467874ca1dd75d0ca7ce49, type: 3}
+  _word: DEVILMAYCRY
+  _additionalLetters: WOSH
   _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

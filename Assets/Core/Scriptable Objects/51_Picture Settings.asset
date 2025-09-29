@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 51_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 32371f149134af84f9c1fd69a1a75e55, type: 3}
-  _word: PLAYSTATION
-  _additionalLetters: SEGAXV
+  _picture: {fileID: -5285860814261453929, guid: 1888c6861810c4743901bf6d4261979c, type: 3}
+  _word: GEOMETRYDASH
+  _additionalLetters: JJUW
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

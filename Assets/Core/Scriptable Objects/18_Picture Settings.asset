@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 18_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 6ef01579e5fa9714c8b637b430a03acc, type: 3}
-  _word: LIPTON
+  _picture: {fileID: -4635262244695084963, guid: cfea5af19ce590d49a2fe97299cad504, type: 3}
+  _word: SEKIRO
   _additionalLetters: CHAIZ
   _hints: 2
   _revealsOnStart: 1

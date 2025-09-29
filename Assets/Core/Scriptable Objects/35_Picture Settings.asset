@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 35_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: c1610cc7c2ca02046aa4fb20f0da8a54, type: 3}
-  _word: FEDEX
+  _picture: {fileID: 2481283322710145526, guid: d9151ce837aa6d84f8bd9a0ebe1fe334, type: 3}
+  _word: FACTORIO
   _additionalLetters: UDUNTU
   _hints: 3
   _revealsOnStart: 2

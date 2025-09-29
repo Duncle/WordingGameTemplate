@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 31_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 827bbb07706d6a642ad0c65c4d251df9, type: 3}
-  _word: ASTONMARTIN
+  _picture: {fileID: 321308297074632398, guid: f041e43f68f45304e868c0aaa3bc2f5a, type: 3}
+  _word: CUPHEAD
   _additionalLetters: PRYZ
   _hints: 3
   _revealsOnStart: 2

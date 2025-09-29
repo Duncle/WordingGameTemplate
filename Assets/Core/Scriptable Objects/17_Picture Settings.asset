@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 17_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 0db41211dbd024d4f958338b0a7b7c31, type: 3}
-  _word: FIAT
+  _picture: {fileID: -2101722772359885166, guid: 04c752975b05ef147b6b8b2181bad573, type: 3}
+  _word: NBA
   _additionalLetters: RENOY
   _hints: 2
   _revealsOnStart: 1

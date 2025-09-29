@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 15_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: e896b520bc77d64478e3ee3f0f84efd7, type: 3}
-  _word: BALMAIN
-  _additionalLetters: HERSP
+  _picture: {fileID: -4966836108541844393, guid: 3ed2e1dba30bdce448baa506bd40ae1d, type: 3}
+  _word: CYBERPUNK
+  _additionalLetters: HORSP
   _hints: 2
   _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}

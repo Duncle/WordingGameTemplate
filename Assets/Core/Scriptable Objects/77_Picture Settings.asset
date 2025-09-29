@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 77_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 54f3b7a3de2340244addcb7cb85f4fc0, type: 3}
-  _word: ADIDAS
-  _additionalLetters: PUMABW
+  _picture: {fileID: -6534525149565609287, guid: d814577215f9b6e47a39a729a72c2aac, type: 3}
+  _word: CIVILIZATION
+  _additionalLetters: PUMS
   _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

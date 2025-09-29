@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 65_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 5ffb4a0ef300ae249be19a86200e9556, type: 3}
-  _word: XIAOMI
-  _additionalLetters: UDASYV
+  _picture: {fileID: -4050504257073558197, guid: 60f0a8e1a58e295498605866094d93cd, type: 3}
+  _word: SIMCITY
+  _additionalLetters: ZOWLA
   _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 82_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 78210e798b1b8e94baba47306ce593bc, type: 3}
-  _word: ROCKSTAR
-  _additionalLetters: BLUEQD
+  _picture: {fileID: 4798112934113466699, guid: af389e8434c8cab46aa74371305785f3, type: 3}
+  _word: STRONGHOLD
+  _additionalLetters: WICK
   _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

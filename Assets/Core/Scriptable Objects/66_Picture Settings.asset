@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 66_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 6497c33bec144f440ae212aa98a85281, type: 3}
-  _word: SUZUKI
-  _additionalLetters: MASHYV
+  _picture: {fileID: -856829218104165904, guid: b637d7b916cdbe84e8e6c0d2c05c675f, type: 3}
+  _word: TONYHAWKS
+  _additionalLetters: MEDP
   _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

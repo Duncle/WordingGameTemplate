@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 45_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 29fae1ef9b85f224184ce4bad64d71d3, type: 3}
-  _word: MARVEL
-  _additionalLetters: DCJNBI
+  _picture: {fileID: 8663428387952139396, guid: 5e6677232cc7ae7448380b8fc95591a2, type: 3}
+  _word: SUBNAUTICA
+  _additionalLetters: LIJO
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

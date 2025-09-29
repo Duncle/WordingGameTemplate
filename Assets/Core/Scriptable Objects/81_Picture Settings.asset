@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 81_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: ed9a13e808e2e8d4ab94190684c2ccd1, type: 3}
-  _word: TIKTOK
-  _additionalLetters: FLAYTZ
+  _picture: {fileID: -7397340389886535319, guid: b61c7e067a251284fb06c1de8476e8d6, type: 3}
+  _word: WORMS
+  _additionalLetters: LIQDN
   _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

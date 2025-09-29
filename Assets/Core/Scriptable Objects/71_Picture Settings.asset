@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 71_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 69b7a8b3f1a00144a90d4307e1309314, type: 3}
-  _word: WARGAMING
-  _additionalLetters: COLL
+  _picture: {fileID: 7447461452859857340, guid: 5382a299dd31b084bbb8deeb6cc73df0, type: 3}
+  _word: DRAGONAGE
+  _additionalLetters: CSLL
   _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}

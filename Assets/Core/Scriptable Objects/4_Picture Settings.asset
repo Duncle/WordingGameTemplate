@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 4_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 329f51f51bf705441b069d1f32cf4706, type: 3}
-  _word: BLUETOOTH
+  _picture: {fileID: -2243569410609860570, guid: b5f47f88e31f236439ebe30a591f8fdc, type: 3}
+  _word: WITCHER
   _additionalLetters: MAIQY
   _hints: 1
   _revealsOnStart: 1

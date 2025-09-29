@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 55_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 8619c5a351f977149aa7c2456cba07de, type: 3}
-  _word: ASICS
-  _additionalLetters: UIAPL
+  _picture: {fileID: -3880149659630137390, guid: e67951a7c4cd0034db9ebfb4913f514a, type: 3}
+  _word: PORTAL
+  _additionalLetters: UIWS
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

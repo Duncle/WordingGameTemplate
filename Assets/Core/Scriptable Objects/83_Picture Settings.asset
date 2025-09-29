@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 83_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 21300000, guid: 53030114cb5d93f44a0852decc6fea87, type: 3}
-  _word: OREO
-  _additionalLetters: LSAZUQ
+  _picture: {fileID: 1979376755272904739, guid: e4df55ab91d081d45baacc7051829a29, type: 3}
+  _word: WARCRAFT
+  _additionalLetters: JUNO
   _hints: 4
   _revealsOnStart: 3
   _gridSize: {x: 5, y: 5}
