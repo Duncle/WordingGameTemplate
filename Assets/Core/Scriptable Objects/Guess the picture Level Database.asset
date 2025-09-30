@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 018beea489744cb184ed489b5769b508, type: 3}
   m_Name: Guess the picture Level Database
   m_EditorClassIdentifier: 
-  _levelCount: 200
-  _initialUnlocks: 1
+  _levelCount: 100
+  _initialUnlocks: 100
   _saveFolderName: c4668f2c-2df2-4660-9612-48ce3c15f945
   _data:
   - levelNumber: 1
@@ -21,598 +21,298 @@ MonoBehaviour:
     locked: 0
   - levelNumber: 2
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 3
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 4
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 5
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 6
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 7
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 8
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 9
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 10
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 11
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 12
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 13
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 14
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 15
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 16
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 17
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 18
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 19
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 20
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 21
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 22
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 23
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 24
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 25
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 26
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 27
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 28
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 29
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 30
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 31
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 32
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 33
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 34
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 35
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 36
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 37
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 38
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 39
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 40
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 41
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 42
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 43
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 44
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 45
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 46
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 47
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 48
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 49
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 50
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 51
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 52
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 53
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 54
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 55
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 56
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 57
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 58
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 59
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 60
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 61
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 62
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 63
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 64
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 65
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 66
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 67
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 68
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 69
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 70
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 71
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 72
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 73
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 74
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 75
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 76
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 77
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 78
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 79
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 80
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 81
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 82
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 83
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 84
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 85
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 86
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 87
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 88
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 89
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 90
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 91
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 92
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 93
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 94
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 95
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 96
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 97
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 98
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 99
     score: 0
-    locked: 1
+    locked: 0
   - levelNumber: 100
     score: 0
-    locked: 1
-  - levelNumber: 101
-    score: 0
-    locked: 1
-  - levelNumber: 102
-    score: 0
-    locked: 1
-  - levelNumber: 103
-    score: 0
-    locked: 1
-  - levelNumber: 104
-    score: 0
-    locked: 1
-  - levelNumber: 105
-    score: 0
-    locked: 1
-  - levelNumber: 106
-    score: 0
-    locked: 1
-  - levelNumber: 107
-    score: 0
-    locked: 1
-  - levelNumber: 108
-    score: 0
-    locked: 1
-  - levelNumber: 109
-    score: 0
-    locked: 1
-  - levelNumber: 110
-    score: 0
-    locked: 1
-  - levelNumber: 111
-    score: 0
-    locked: 1
-  - levelNumber: 112
-    score: 0
-    locked: 1
-  - levelNumber: 113
-    score: 0
-    locked: 1
-  - levelNumber: 114
-    score: 0
-    locked: 1
-  - levelNumber: 115
-    score: 0
-    locked: 1
-  - levelNumber: 116
-    score: 0
-    locked: 1
-  - levelNumber: 117
-    score: 0
-    locked: 1
-  - levelNumber: 118
-    score: 0
-    locked: 1
-  - levelNumber: 119
-    score: 0
-    locked: 1
-  - levelNumber: 120
-    score: 0
-    locked: 1
-  - levelNumber: 121
-    score: 0
-    locked: 1
-  - levelNumber: 122
-    score: 0
-    locked: 1
-  - levelNumber: 123
-    score: 0
-    locked: 1
-  - levelNumber: 124
-    score: 0
-    locked: 1
-  - levelNumber: 125
-    score: 0
-    locked: 1
-  - levelNumber: 126
-    score: 0
-    locked: 1
-  - levelNumber: 127
-    score: 0
-    locked: 1
-  - levelNumber: 128
-    score: 0
-    locked: 1
-  - levelNumber: 129
-    score: 0
-    locked: 1
-  - levelNumber: 130
-    score: 0
-    locked: 1
-  - levelNumber: 131
-    score: 0
-    locked: 1
-  - levelNumber: 132
-    score: 0
-    locked: 1
-  - levelNumber: 133
-    score: 0
-    locked: 1
-  - levelNumber: 134
-    score: 0
-    locked: 1
-  - levelNumber: 135
-    score: 0
-    locked: 1
-  - levelNumber: 136
-    score: 0
-    locked: 1
-  - levelNumber: 137
-    score: 0
-    locked: 1
-  - levelNumber: 138
-    score: 0
-    locked: 1
-  - levelNumber: 139
-    score: 0
-    locked: 1
-  - levelNumber: 140
-    score: 0
-    locked: 1
-  - levelNumber: 141
-    score: 0
-    locked: 1
-  - levelNumber: 142
-    score: 0
-    locked: 1
-  - levelNumber: 143
-    score: 0
-    locked: 1
-  - levelNumber: 144
-    score: 0
-    locked: 1
-  - levelNumber: 145
-    score: 0
-    locked: 1
-  - levelNumber: 146
-    score: 0
-    locked: 1
-  - levelNumber: 147
-    score: 0
-    locked: 1
-  - levelNumber: 148
-    score: 0
-    locked: 1
-  - levelNumber: 149
-    score: 0
-    locked: 1
-  - levelNumber: 150
-    score: 0
-    locked: 1
-  - levelNumber: 151
-    score: 0
-    locked: 1
-  - levelNumber: 152
-    score: 0
-    locked: 1
-  - levelNumber: 153
-    score: 0
-    locked: 1
-  - levelNumber: 154
-    score: 0
-    locked: 1
-  - levelNumber: 155
-    score: 0
-    locked: 1
-  - levelNumber: 156
-    score: 0
-    locked: 1
-  - levelNumber: 157
-    score: 0
-    locked: 1
-  - levelNumber: 158
-    score: 0
-    locked: 1
-  - levelNumber: 159
-    score: 0
-    locked: 1
-  - levelNumber: 160
-    score: 0
-    locked: 1
-  - levelNumber: 161
-    score: 0
-    locked: 1
-  - levelNumber: 162
-    score: 0
-    locked: 1
-  - levelNumber: 163
-    score: 0
-    locked: 1
-  - levelNumber: 164
-    score: 0
-    locked: 1
-  - levelNumber: 165
-    score: 0
-    locked: 1
-  - levelNumber: 166
-    score: 0
-    locked: 1
-  - levelNumber: 167
-    score: 0
-    locked: 1
-  - levelNumber: 168
-    score: 0
-    locked: 1
-  - levelNumber: 169
-    score: 0
-    locked: 1
-  - levelNumber: 170
-    score: 0
-    locked: 1
-  - levelNumber: 171
-    score: 0
-    locked: 1
-  - levelNumber: 172
-    score: 0
-    locked: 1
-  - levelNumber: 173
-    score: 0
-    locked: 1
-  - levelNumber: 174
-    score: 0
-    locked: 1
-  - levelNumber: 175
-    score: 0
-    locked: 1
-  - levelNumber: 176
-    score: 0
-    locked: 1
-  - levelNumber: 177
-    score: 0
-    locked: 1
-  - levelNumber: 178
-    score: 0
-    locked: 1
-  - levelNumber: 179
-    score: 0
-    locked: 1
-  - levelNumber: 180
-    score: 0
-    locked: 1
-  - levelNumber: 181
-    score: 0
-    locked: 1
-  - levelNumber: 182
-    score: 0
-    locked: 1
-  - levelNumber: 183
-    score: 0
-    locked: 1
-  - levelNumber: 184
-    score: 0
-    locked: 1
-  - levelNumber: 185
-    score: 0
-    locked: 1
-  - levelNumber: 186
-    score: 0
-    locked: 1
-  - levelNumber: 187
-    score: 0
-    locked: 1
-  - levelNumber: 188
-    score: 0
-    locked: 1
-  - levelNumber: 189
-    score: 0
-    locked: 1
-  - levelNumber: 190
-    score: 0
-    locked: 1
-  - levelNumber: 191
-    score: 0
-    locked: 1
-  - levelNumber: 192
-    score: 0
-    locked: 1
-  - levelNumber: 193
-    score: 0
-    locked: 1
-  - levelNumber: 194
-    score: 0
-    locked: 1
-  - levelNumber: 195
-    score: 0
-    locked: 1
-  - levelNumber: 196
-    score: 0
-    locked: 1
-  - levelNumber: 197
-    score: 0
-    locked: 1
-  - levelNumber: 198
-    score: 0
-    locked: 1
-  - levelNumber: 199
-    score: 0
-    locked: 1
-  - levelNumber: 200
-    score: 0
-    locked: 1
+    locked: 0
