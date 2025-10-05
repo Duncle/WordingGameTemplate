@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 44_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 5768562600780965091, guid: d7e191c9a192c2a4d8b45bb1cb2153ff, type: 3}
-  _word: THEFOREST
-  _additionalLetters: SULRY
+  _picture: {fileID: 6120505243920896132, guid: 80899a4358045d1408562ee89f38194a, type: 3}
+  _word: "\u041F\u0415\u0420\u0415\u0412\u041E\u0414\u0427\u0418\u041A"
+  _additionalLetters: "\u0426\u041F\u0410\u0423"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

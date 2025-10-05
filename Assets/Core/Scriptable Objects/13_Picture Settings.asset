@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 13_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 4553489221681102026, guid: 39c0998f2ca07614b9acc9e7d81d1182, type: 3}
-  _word: HEARTHSTONE
-  _additionalLetters: UFPWN
+  _picture: {fileID: -6071642776109245582, guid: 5f6160d6d09138b40b7c04627919c158, type: 3}
+  _word: "\u0425\u041E\u041A\u041A\u0415\u0418\u0421\u0422"
+  _additionalLetters: "\u0414\u0416\u0410\u0420\u0412"
   _hints: 2
   _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}

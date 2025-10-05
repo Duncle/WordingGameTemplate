@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 2_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -6386026673469701636, guid: 91f7303f613a4424c83bfd5d12a8db6c, type: 3}
-  _word: GTA5
+  _picture: {fileID: 7985493240318429791, guid: 5d618e59da1e4c645acc81b114e0b296, type: 3}
+  _word: "\u0420\u042B\u0411\u0410\u041A"
   _additionalLetters: RODJ1
   _hints: 1
   _revealsOnStart: 1

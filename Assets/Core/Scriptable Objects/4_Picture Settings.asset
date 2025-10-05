@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 4_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -2243569410609860570, guid: b5f47f88e31f236439ebe30a591f8fdc, type: 3}
-  _word: WITCHER
-  _additionalLetters: MAIQY
+  _picture: {fileID: 6803185360435975143, guid: d9a4d60597059a84f8beb8000dcd0135, type: 3}
+  _word: "\u041F\u041E\u0416\u0410\u0420\u041D\u042B\u0419"
+  _additionalLetters: "\u041B\u0414\u0423\u0421\u042F"
   _hints: 1
   _revealsOnStart: 1
   _gridSize: {x: 2, y: 2}

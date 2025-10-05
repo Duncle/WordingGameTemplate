@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 16_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -1184880365156822710, guid: 96ad9cf75fdaed746924331cc453a9b8, type: 3}
-  _word: FIFA
-  _additionalLetters: UHPBY
+  _picture: {fileID: 6504179198631686658, guid: fe67ed19945404d44925bbc4d15a69b3, type: 3}
+  _word: "\u0425\u0418\u041C\u0418\u041A"
+  _additionalLetters: "\u0414\u0416\u0410\u0420\u0426\u042F"
   _hints: 2
   _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}

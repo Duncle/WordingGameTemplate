@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 41_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -5908088828318846707, guid: 58fb3d9a208c6d94eb799f7ac64bc3da, type: 3}
-  _word: FALLOUT4
-  _additionalLetters: TWIT
+  _picture: {fileID: 8896158355291719007, guid: 3c146c5cec863094fa60d4bf97f5b58d, type: 3}
+  _word: "\u041F\u0427\u0415\u041B\u041E\u0412\u041E\u0414"
+  _additionalLetters: "\u041C\u0410\u0413\u0423\u0426"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

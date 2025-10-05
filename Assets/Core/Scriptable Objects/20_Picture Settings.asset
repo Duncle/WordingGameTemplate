@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 20_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 8353733320395377830, guid: bbc9d86258b199948b6ef0a383705956, type: 3}
-  _word: DARKSOUL
-  _additionalLetters: MQJHZ
+  _picture: {fileID: 1586892690338900813, guid: 680c034f173f13f4e8465990f5bf173c, type: 3}
+  _word: "\u041B\u0423\u0427\u041D\u0418\u041A"
+  _additionalLetters: "\u0421\u0410\u0428\u0415\u0414"
   _hints: 2
   _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}

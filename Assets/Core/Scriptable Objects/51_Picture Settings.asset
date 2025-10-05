@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 51_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -5285860814261453929, guid: 1888c6861810c4743901bf6d4261979c, type: 3}
-  _word: GEOMETRYDASH
-  _additionalLetters: JJUW
+  _picture: {fileID: 3853093138604936472, guid: 6885e9dc8f841cd44a78cc491264b2d5, type: 3}
+  _word: "\u0411\u041E\u0420\u0422\u041F\u0420\u041E\u0412\u041E\u0414\u041D\u0418\u041A"
+  _additionalLetters: "\u0421\u0423\u042F"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

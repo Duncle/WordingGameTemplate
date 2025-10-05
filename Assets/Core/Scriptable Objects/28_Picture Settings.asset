@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 28_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 795555031509100070, guid: 0c6173289c44d3a41beaf9c52fb45978, type: 3}
-  _word: MARIO
-  _additionalLetters: JQZDY
+  _picture: {fileID: 290463413553833461, guid: c583aa36756a938468367d9b4277e2aa, type: 3}
+  _word: "\u0414\u0418\u0420\u0418\u0416\u0415\u0420"
+  _additionalLetters: "\u0419\u0426\u041F\u0421\u042E\u0423"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 57_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 5933889696690235040, guid: 05115d81f1b3ebc45808617b225a3657, type: 3}
-  _word: METRO2033
-  _additionalLetters: DISCR
+  _picture: {fileID: 2046686000180823082, guid: 44aaacd960f410c438f979f10d47c693, type: 3}
+  _word: "\u041B\u0415\u0422\u0427\u0418\u041A"
+  _additionalLetters: "\u041D\u0418\u0414\u0416"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

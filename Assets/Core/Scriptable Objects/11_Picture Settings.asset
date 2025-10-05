@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 11_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 6941744372676571933, guid: c762694517167314dba2a13d08358264, type: 3}
-  _word: GENSHIN
-  _additionalLetters: RADOK
+  _picture: {fileID: 2064308249826600160, guid: e55b17516fc0043469fcd4de8d6b9201, type: 3}
+  _word: "\u0424\u041E\u0422\u041E\u0413\u0420\u0410\u0424"
+  _additionalLetters: "\u041F\u0423\u041B\u042F"
   _hints: 2
   _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}

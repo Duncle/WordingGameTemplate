@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 15_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -4966836108541844393, guid: 3ed2e1dba30bdce448baa506bd40ae1d, type: 3}
-  _word: CYBERPUNK
-  _additionalLetters: HORSP
+  _picture: {fileID: -3060844749886380015, guid: ebe7dd03aa46e1344bbe038a56726862, type: 3}
+  _word: "\u041A\u041B\u041E\u0423\u041D"
+  _additionalLetters: "\u0415\u0414\u041C\u0418"
   _hints: 2
   _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}

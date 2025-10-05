@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 40_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 2388712459038136537, guid: e63c85d85f43fe442b825dae77b498bb, type: 3}
-  _word: HALFLIFE
-  _additionalLetters: JOTOR
+  _picture: {fileID: -8665471466279747282, guid: 88bd341f0494008429280dba9c772606, type: 3}
+  _word: "\u041F\u0410\u0420\u0418\u041A\u041C\u0410\u0425\u0415\u0420"
+  _additionalLetters: "\u0421\u0418\u0427\u0423\u0426"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

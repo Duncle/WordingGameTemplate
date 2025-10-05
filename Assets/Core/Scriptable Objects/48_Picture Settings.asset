@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 48_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -2944126212939572426, guid: ae968c2b128240244b3043dbfb764dc0, type: 3}
-  _word: WASTELAND3
-  _additionalLetters: HOMZ
+  _picture: {fileID: -3250357385477736518, guid: 3d1028f5980d97b4797ac707a27bbf4a, type: 3}
+  _word: "\u0420\u0415\u041F\u041E\u0420\u0422\u0415\u0420"
+  _additionalLetters: "\u0418\u0422\u0410\u0427"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

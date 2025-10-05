@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 26_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -3997109129123912755, guid: b8055bdeac0aa0345a129f65d92ed714, type: 3}
-  _word: DIABLO
-  _additionalLetters: ZERGJ
+  _picture: {fileID: 7321722911345301881, guid: 455e0f978d924f44683323328aedfc03, type: 3}
+  _word: "\u041E\u0424\u0418\u0426\u0418\u0410\u041D\u0422"
+  _additionalLetters: "\u0416\u0414\u0410\u041B\u042F"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

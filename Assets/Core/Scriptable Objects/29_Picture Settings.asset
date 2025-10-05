@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 29_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 940595898135872553, guid: 17a0c076bd4de31458b46faab74543bf, type: 3}
-  _word: GODOFWAR
-  _additionalLetters: UPSTEJ
+  _picture: {fileID: 1810995844529674096, guid: 79f49440d71414c4197b1e706e335dee, type: 3}
+  _word: "\u041A\u041E\u041D\u0421\u042C\u0415\u0420\u0416"
+  _additionalLetters: "\u0426\u0410\u041F\u0420\u0423"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

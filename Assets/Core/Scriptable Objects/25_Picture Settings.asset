@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 25_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 1881146000990621179, guid: c8e36d7c811528a4689bbd043c3d6325, type: 3}
-  _word: LOSTARK
-  _additionalLetters: KDZPY
+  _picture: {fileID: -7161867483926395563, guid: ad76ba5c87b1a3b45985cf432125ded2, type: 3}
+  _word: "\u041F\u041B\u041E\u0422\u041D\u0418\u041A"
+  _additionalLetters: "\u0415\u041D\u0420\u0423"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

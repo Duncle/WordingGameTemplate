@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 52_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 4090534463755566725, guid: 943fc762ec8009c45bbd70eaedd519fb, type: 3}
-  _word: FABLE
-  _additionalLetters: HINY
+  _picture: {fileID: 183088264537784549, guid: 0e92f8de456480c479502989800089e2, type: 3}
+  _word: "\u041A\u0423\u0420\u042C\u0415\u0420"
+  _additionalLetters: "\u0421\u0410\u0419\u0411"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 33_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -6335549031092146767, guid: 93bb659706bced440a5b5aa47a22e450, type: 3}
-  _word: DEUSEX
-  _additionalLetters: BADLA
+  _picture: {fileID: -4646477571412966163, guid: 70e1a40e26af747409cd29e5f2a795f3, type: 3}
+  _word: "\u0424\u0415\u0420\u041C\u0415\u0420"
+  _additionalLetters: "\u0428\u0418\u041A\u0410\u041F"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

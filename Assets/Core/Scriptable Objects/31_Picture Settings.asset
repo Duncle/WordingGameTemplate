@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 31_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 321308297074632398, guid: f041e43f68f45304e868c0aaa3bc2f5a, type: 3}
-  _word: CUPHEAD
-  _additionalLetters: PRYZ
+  _picture: {fileID: -6014782683702097299, guid: 752061d0c5cca7b4194445935b7d98db, type: 3}
+  _word: "\u0421\u0422\u041E\u041C\u0410\u0422\u041E\u041B\u041E\u0413"
+  _additionalLetters: "\u0428\u0423\u0427\u0423"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

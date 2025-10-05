@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 50_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -1282582397398358035, guid: 60c7d265cc078004b8fa9b07c3e9d676, type: 3}
-  _word: FROSTPUNK
-  _additionalLetters: UAQGYV
+  _picture: {fileID: 7824662544133253075, guid: bb60e4554ff8c2f43a108802691d5893, type: 3}
+  _word: "\u041F\u0418\u0421\u0410\u0422\u0415\u041B\u042C"
+  _additionalLetters: "\u0414\u0410\u0423\u0411"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

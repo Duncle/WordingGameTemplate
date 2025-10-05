@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 5_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -95558768523180359, guid: a980645ae52f5db41b4102a386ea494f, type: 3}
-  _word: DOTA2
-  _additionalLetters: IRISL
+  _picture: {fileID: 8665751156280037842, guid: 3852f27188f71414692de1940194f15f, type: 3}
+  _word: "\u0428\u0412\u0415\u042F"
+  _additionalLetters: "\u0423\u041C\u0410\u0420"
   _hints: 1
   _revealsOnStart: 1
   _gridSize: {x: 2, y: 2}

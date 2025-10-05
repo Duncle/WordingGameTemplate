@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 9_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -7384561085570643890, guid: bee367a89d12abb4bb454dbcd3f6472c, type: 3}
-  _word: PUBG
-  _additionalLetters: DAHJ
+  _picture: {fileID: -6669755277090362442, guid: 96d8b799b6e930545b8ea761156fd616, type: 3}
+  _word: "\u041A\u041E\u041D\u042C\u041A\u041E\u0411\u0415\u0416\u0415\u0426"
+  _additionalLetters: "\u0421\u0418\u0420\u0410\u0417"
   _hints: 2
   _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}

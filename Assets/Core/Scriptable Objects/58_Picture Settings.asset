@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 58_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 8578475128154381175, guid: 1939e2e62ae13ae45970cdfc8b0105a1, type: 3}
-  _word: TITANFALL
-  _additionalLetters: OMYZS
+  _picture: {fileID: -4300277123404108466, guid: c13612485e426984fb175c2b6a09d0d2, type: 3}
+  _word: "\u041F\u041E\u0413\u0420\u0410\u041D\u0418\u0427\u041D\u0418\u041A"
+  _additionalLetters: "\u0414\u0423\u042C\u0421"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

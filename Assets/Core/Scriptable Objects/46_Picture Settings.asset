@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 46_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 2218061053632048516, guid: f7451b4c8b5ff6a4b968d1906eb69c90, type: 3}
-  _word: PHASMOPHOBIA
-  _additionalLetters: JWL
+  _picture: {fileID: -114646056673377584, guid: 78c0724ea3ef4184cacb1f350ce0940b, type: 3}
+  _word: "\u0421\u0422\u042E\u0410\u0420\u0414\u0415\u0421\u0421\u0410"
+  _additionalLetters: "\u041D\u0423\u041C\u0419"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

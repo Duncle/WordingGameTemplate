@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 14_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -6663144903140875126, guid: e0eebab613187994187cabf88932291e, type: 3}
-  _word: TETRIS
-  _additionalLetters: ALGUM
+  _picture: {fileID: -10171865797249991, guid: 4215d5882265b3c449cc93aa104f4486, type: 3}
+  _word: "\u0424\u0423\u0422\u0411\u041E\u041B\u0418\u0421\u0422"
+  _additionalLetters: "\u0426\u0410\u041A\u0428\u0423"
   _hints: 2
   _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 59_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 2690452225301884487, guid: d55c1488bb692f347ab52593453b9025, type: 3}
-  _word: BORDERLANDS
-  _additionalLetters: YHWJ
+  _picture: {fileID: 6054499971140787048, guid: 12246ba65f13c624c8889194a91fc736, type: 3}
+  _word: "\u0412\u0420\u0410\u0427"
+  _additionalLetters: "\u041C\u0428\u041E\u041B"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

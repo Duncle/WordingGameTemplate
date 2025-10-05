@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 21_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -176363182444611620, guid: 0451dd8d0bf3c85438021d53734c73fd, type: 3}
-  _word: AMOUNGUS
-  _additionalLetters: PLETY
+  _picture: {fileID: 523292664316996589, guid: f6f18faa04009724fa1fe06a803f232c, type: 3}
+  _word: "\u041C\u0423\u0417\u042B\u041A\u0410\u041D\u0422"
+  _additionalLetters: "\u0420\u041E\u0411\u041E\u0419"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

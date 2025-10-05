@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 32_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -2327650796713943336, guid: a790e33ef995df0428637adcdf15faf6, type: 3}
-  _word: LEFT4DEAD2
-  _additionalLetters: JYSQ
+  _picture: {fileID: -2059524522087366957, guid: 3b11f7a01c83a4242b5a80fc4ef1661d, type: 3}
+  _word: "\u0422\u041E\u0420\u0413\u041E\u0412\u0415\u0426"
+  _additionalLetters: "\u0421\u0418\u0427\u0410\u0414"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

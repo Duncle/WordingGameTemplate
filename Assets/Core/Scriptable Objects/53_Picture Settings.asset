@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 53_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -1801735411788782058, guid: 51e4c27ff244bba4ca0f515f7553ef68, type: 3}
-  _word: HALO
-  _additionalLetters: JIMB
+  _picture: {fileID: 6368149620959746577, guid: 12fc1df4044d11a4db8ce9b7e7fba778, type: 3}
+  _word: "\u0422\u0415\u041D\u0418\u0421\u0421\u0418\u0421\u0422"
+  _additionalLetters: "\u041B\u0410\u0419\u0411"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

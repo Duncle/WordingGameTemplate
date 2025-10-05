@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 18_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -4635262244695084963, guid: cfea5af19ce590d49a2fe97299cad504, type: 3}
-  _word: SEKIRO
-  _additionalLetters: CHAIZ
+  _picture: {fileID: 6704274288995159076, guid: 8e8c4f6665bee5043b48e427b016c33e, type: 3}
+  _word: "\u0411\u0415\u0419\u0421\u0411\u041E\u041B\u0418\u0421\u0422"
+  _additionalLetters: "\u0410\u0428\u041D\u0423"
   _hints: 2
   _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}

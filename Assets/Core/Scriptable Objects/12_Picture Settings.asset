@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 12_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 8052754148372123190, guid: 79222648b9418294287355eb5f5a7fda, type: 3}
-  _word: BRAWLSTARS
-  _additionalLetters: IFWPM
+  _picture: {fileID: 3027336461608954208, guid: d6dcc2c660124c74bbf41a53486f2a9a, type: 3}
+  _word: "\u0421\u041A\u0420\u0418\u041F\u0410\u0427"
+  _additionalLetters: "\u0417\u0418\u041B\u0426"
   _hints: 2
   _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}

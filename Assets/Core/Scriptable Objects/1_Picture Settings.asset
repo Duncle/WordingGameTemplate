@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 1_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -8327657826380708006, guid: c31e99063bbc3cf48b6490b390674d2d, type: 3}
-  _word: MINECRAFT
-  _additionalLetters: RUBYQ
+  _picture: {fileID: 2242671622373237503, guid: 5d6f5ac32b7b29f438238df8c6f73cd0, type: 3}
+  _word: "\u0411\u0410\u0421\u041A\u0415\u0422\u0411\u041E\u041B\u0418\u0421\u0422"
+  _additionalLetters: "\u042B\u0428\u0413\u0419"
   _hints: 1
   _revealsOnStart: 1
   _gridSize: {x: 2, y: 2}

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 17_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -2101722772359885166, guid: 04c752975b05ef147b6b8b2181bad573, type: 3}
-  _word: NBA
-  _additionalLetters: RENOY
+  _picture: {fileID: -2070258750310403236, guid: 9cd8f806becddd346a88a4ce820904de, type: 3}
+  _word: "\u0410\u041A\u0422\u0415\u0420"
+  _additionalLetters: "\u041F\u0418\u0421\u041E"
   _hints: 2
   _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}

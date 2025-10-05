@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 3_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 4592909058671734335, guid: 3f7c8d68537252142831d96257799e71, type: 3}
-  _word: SKYRIM
-  _additionalLetters: OMOB
+  _picture: {fileID: -3441282487379562689, guid: 52a130199bbbafb4ea00a50894a5fdef, type: 3}
+  _word: "\u0421\u0412\u0410\u0420\u0429\u0418\u041A"
+  _additionalLetters: "\u0422\u041E\u041B\u0423\u041E"
   _hints: 1
   _revealsOnStart: 1
   _gridSize: {x: 2, y: 2}

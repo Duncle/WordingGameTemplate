@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 8_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -5568419658675750820, guid: f44562d107ec3f247990d20ae9837c27, type: 3}
-  _word: APEX
-  _additionalLetters: PSKYZ
+  _picture: {fileID: 2942541707934739019, guid: 33526fc12a1fec64498bc1d3004e17b4, type: 3}
+  _word: "\u0410\u0421\u0422\u0420\u041E\u041D\u041E\u041C"
+  _additionalLetters: "\u041F\u0418\u041A\u0427"
   _hints: 2
   _revealsOnStart: 1
   _gridSize: {x: 3, y: 3}

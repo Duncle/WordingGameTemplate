@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 30_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -2178188244146546526, guid: ef548c8d70d94314394d7f24b55f6140, type: 3}
-  _word: DETROIT
-  _additionalLetters: KJQXZM
+  _picture: {fileID: 1577346197051253052, guid: 1c272c70403e4ac469d9de7c880ac4b7, type: 3}
+  _word: "\u0417\u0412\u0423\u041A\u041E\u0420\u0415\u0416\u0418\u0421\u0421\u0415\u0420"
+  _additionalLetters: "\u0426\u041F\u041B"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

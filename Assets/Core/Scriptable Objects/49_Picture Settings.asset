@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 49_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 2389856339642955073, guid: 582fdfa0cab61c649bdff2aeb64b36cc, type: 3}
-  _word: STALKER
-  _additionalLetters: JIMY
+  _picture: {fileID: 7228299397963651329, guid: 7fcc3c43253c3be46add372cb77a0b74, type: 3}
+  _word: "\u0411\u0418\u0417\u041D\u0415\u0421\u041C\u0415\u041D"
+  _additionalLetters: "\u041A\u041E\u0423\u0427"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

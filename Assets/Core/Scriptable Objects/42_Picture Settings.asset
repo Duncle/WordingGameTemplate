@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 42_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: -5990873578134415834, guid: 8e8da99442c95e74b8dc1e309af5cfb0, type: 3}
-  _word: VALHEIM
-  _additionalLetters: JYROW
+  _picture: {fileID: -673321353931825706, guid: 14b7f5c2ea596ab4aaaba0e31f717e88, type: 3}
+  _word: "\u0421\u0422\u0423\u0414\u0415\u041D\u0422"
+  _additionalLetters: "\u0429\u0410\u042C\u0426\u041A"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

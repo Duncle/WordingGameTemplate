@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 37_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 5984223231530506539, guid: 7634bbc992946c04085eaee3dc47a273, type: 3}
-  _word: HELLDIVERS2
-  _additionalLetters: YNOW
+  _picture: {fileID: -1522698669232763645, guid: 1a5a457f6df30264b9a8f6218d28d52b, type: 3}
+  _word: "\u041F\u041E\u041B\u0418\u0426\u0415\u0419\u0421\u041A\u0418\u0419"
+  _additionalLetters: "\u042E\u0417\u0419\u0423"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}

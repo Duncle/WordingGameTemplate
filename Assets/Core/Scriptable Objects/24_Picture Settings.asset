@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
   m_Name: 24_Picture Settings
   m_EditorClassIdentifier: 
-  _picture: {fileID: 9103355834831096752, guid: d16b144a8cdfff94d935260b3b2edb69, type: 3}
-  _word: FALLGUYS
-  _additionalLetters: DIKTL
+  _picture: {fileID: -181582524042188821, guid: d01ff63203eaa724d9c97bd4ea5d57ac, type: 3}
+  _word: "\u0421\u0410\u0414\u041E\u0412\u041D\u0418\u041A"
+  _additionalLetters: "\u0413\u0415\u0427\u0420\u0423"
   _hints: 3
   _revealsOnStart: 2
   _gridSize: {x: 4, y: 4}
