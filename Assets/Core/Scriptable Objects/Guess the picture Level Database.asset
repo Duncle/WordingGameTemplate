@@ -17,14 +17,14 @@ MonoBehaviour:
   _saveFolderName: c4668f2c-2df2-4660-9612-48ce3c15f945
   _data:
   - levelNumber: 1
-    score: 1
-    locked: 0
-  - levelNumber: 2
-    score: 1
-    locked: 0
-  - levelNumber: 3
     score: 0
     locked: 0
+  - levelNumber: 2
+    score: 0
+    locked: 1
+  - levelNumber: 3
+    score: 0
+    locked: 1
   - levelNumber: 4
     score: 0
     locked: 1
