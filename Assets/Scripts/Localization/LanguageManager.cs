@@ -1,4 +1,4 @@
-using BansheeGz.BGDatabase;
+//using BansheeGz.BGDatabase;
 using UnityEngine;
 using YG;
 
@@ -22,18 +22,18 @@ namespace Localization
 
         private void Apply(string lang)
         {
-            BGRepo.I.Addons.Get<BGAddonLocalization>().CurrentLocale = lang;
-            Debug.Log($"Locale set: {lang}");
+            //BGRepo.I.Addons.Get<BGAddonLocalization>().CurrentLocale = lang;
+            //Debug.Log($"Locale set: {lang}");
         }
 
         public static string GetLocalizedName(string labelID, string tableName, string fieldName)
         {
-            var currentLocalizedRow = BGRepo.I[tableName].FindEntity(entity => entity.Id.ToString() == labelID);
+            //var currentLocalizedRow = BGRepo.I[tableName].FindEntity(entity => entity.Id.ToString() == labelID);
 
-            if (currentLocalizedRow != null)
-                return currentLocalizedRow.Get<string>(fieldName);
+            //if (currentLocalizedRow != null)
+                //return currentLocalizedRow.Get<string>(fieldName);
 
-            Debug.Log("There is no translation for this text");
+            //Debug.Log("There is no translation for this text");
             return string.Empty;
         }
         

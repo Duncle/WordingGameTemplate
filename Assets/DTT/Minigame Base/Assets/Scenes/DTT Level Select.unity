@@ -782,8 +782,6 @@ GameObject:
   - component: {fileID: 1567885893}
   - component: {fileID: 1567885895}
   - component: {fileID: 1567885897}
-  - component: {fileID: 1567885896}
-  - component: {fileID: 1567885898}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -818,32 +816,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567885892}
   m_CullTransparentMesh: 1
---- !u!114 &1567885896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1567885892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1832708256, guid: f2ce1356528975a42942c7ecfb4189d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ignoreErrors: 0
-  sourceMethod: 0
-  targetComponent: {fileID: 1567885897}
-  targetFieldName: text
-  isTargetProperty: 1
-  path: []
-  includePrivate: 0
-  targetTypeString: System.String
-  metaIdString: vHZZ1ITorUm99vC9GZ1dLQ
-  entityIdString: 2rgCYqBDk0yajlhj8kqDYQ
-  fieldIdString: UJqrbF5La0efwIIFHYhxQQ
-  functionCode: 0
-  functionClass: 
-  liveUpdate: 0
 --- !u!114 &1567885897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -864,10 +836,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LEVEL SELECT
+  m_text: "\u0412\u044B\u0431\u043E\u0440 \u0443\u0440\u043E\u0432\u043D\u044F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cc05918bcb0d28d4fbb145b72f05eed8, type: 2}
+  m_sharedMaterial: {fileID: -3786886845351166355, guid: cc05918bcb0d28d4fbb145b72f05eed8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -891,7 +863,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 62.3
+  m_fontSize: 64.85
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -935,32 +907,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &1567885898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1567885892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1832708256, guid: f2ce1356528975a42942c7ecfb4189d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ignoreErrors: 0
-  sourceMethod: 0
-  targetComponent: {fileID: 1567885897}
-  targetFieldName: font
-  isTargetProperty: 1
-  path: []
-  includePrivate: 0
-  targetTypeString: UnityEngine.Object
-  metaIdString: VBOwcHmbokeppg9D7YO85g
-  entityIdString: vpKhfS78Sk+fN39M+4qgKQ
-  fieldIdString: PrNT+MZhrUyKd9GS1DOqIA
-  functionCode: 0
-  functionClass: 
-  liveUpdate: 0
 --- !u!1 &1738108993
 GameObject:
   m_ObjectHideFlags: 0

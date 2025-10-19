@@ -949,10 +949,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Get +3 reveals
+  m_text: "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C +3 \u043E\u0442\u043A\u0440\u044B\u0442\u0438\u044F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cc05918bcb0d28d4fbb145b72f05eed8, type: 2}
+  m_sharedMaterial: {fileID: -3786886845351166355, guid: cc05918bcb0d28d4fbb145b72f05eed8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -976,7 +976,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.15
+  m_fontSize: 26.85
   m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1040,20 +1040,6 @@ MonoBehaviour:
   m_Script: {fileID: -1832708256, guid: f2ce1356528975a42942c7ecfb4189d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ignoreErrors: 0
-  sourceMethod: 0
-  targetComponent: {fileID: 366621423}
-  targetFieldName: text
-  isTargetProperty: 1
-  path: []
-  includePrivate: 0
-  targetTypeString: System.String
-  metaIdString: vHZZ1ITorUm99vC9GZ1dLQ
-  entityIdString: Ywjcb3p8d0OSJAFo7QgrAw
-  fieldIdString: UJqrbF5La0efwIIFHYhxQQ
-  functionCode: 0
-  functionClass: 
-  liveUpdate: 0
 --- !u!114 &366621426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1066,20 +1052,6 @@ MonoBehaviour:
   m_Script: {fileID: -1832708256, guid: f2ce1356528975a42942c7ecfb4189d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ignoreErrors: 0
-  sourceMethod: 0
-  targetComponent: {fileID: 366621423}
-  targetFieldName: font
-  isTargetProperty: 1
-  path: []
-  includePrivate: 0
-  targetTypeString: UnityEngine.Object
-  metaIdString: VBOwcHmbokeppg9D7YO85g
-  entityIdString: vpKhfS78Sk+fN39M+4qgKQ
-  fieldIdString: PrNT+MZhrUyKd9GS1DOqIA
-  functionCode: 0
-  functionClass: 
-  liveUpdate: 0
 --- !u!1001 &515249229
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2238,8 +2210,6 @@ GameObject:
   - component: {fileID: 1480534213}
   - component: {fileID: 1480534215}
   - component: {fileID: 1480534217}
-  - component: {fileID: 1480534216}
-  - component: {fileID: 1480534218}
   m_Layer: 5
   m_Name: Hints
   m_TagString: Untagged
@@ -2274,32 +2244,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480534212}
   m_CullTransparentMesh: 0
---- !u!114 &1480534216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480534212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1832708256, guid: f2ce1356528975a42942c7ecfb4189d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ignoreErrors: 0
-  sourceMethod: 0
-  targetComponent: {fileID: 1480534217}
-  targetFieldName: text
-  isTargetProperty: 1
-  path: []
-  includePrivate: 0
-  targetTypeString: System.String
-  metaIdString: vHZZ1ITorUm99vC9GZ1dLQ
-  entityIdString: LPYFDsjf/U6ypu3QgwxNYw
-  fieldIdString: UJqrbF5La0efwIIFHYhxQQ
-  functionCode: 0
-  functionClass: 
-  liveUpdate: 0
 --- !u!114 &1480534217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2320,7 +2264,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Reveals Left:'
+  m_text: "\u041E\u0441\u0442\u0430\u043B\u043E\u0441\u044C \u043E\u0442\u043A\u0440\u044B\u0442\u0438\u0439:"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2347,7 +2291,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 33.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2391,32 +2335,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &1480534218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480534212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1832708256, guid: f2ce1356528975a42942c7ecfb4189d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ignoreErrors: 0
-  sourceMethod: 0
-  targetComponent: {fileID: 1480534217}
-  targetFieldName: font
-  isTargetProperty: 1
-  path: []
-  includePrivate: 0
-  targetTypeString: UnityEngine.Object
-  metaIdString: VBOwcHmbokeppg9D7YO85g
-  entityIdString: vpKhfS78Sk+fN39M+4qgKQ
-  fieldIdString: PrNT+MZhrUyKd9GS1DOqIA
-  functionCode: 0
-  functionClass: 
-  liveUpdate: 0
 --- !u!1 &1537718269
 GameObject:
   m_ObjectHideFlags: 0
@@ -2914,60 +2832,6 @@ MonoBehaviour:
   m_Script: {fileID: 424841458, guid: f2ce1356528975a42942c7ecfb4189d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ignoreErrors: 0
-  sourceMethod: 0
-  showResults: 0
-  fieldBinders:
-  - targetGameObject: {fileID: 1870585812}
-    targetComponent: {fileID: 1870585814}
-    targetFieldName: text
-    isTargetProperty: 1
-    path: []
-    includePrivate: 0
-    liveUpdate: 0
-    metaIdString: vHZZ1ITorUm99vC9GZ1dLQ
-    entityIdString: 4qoUvlV/7UuOlnidGJb7uA
-    fieldIdString: UJqrbF5La0efwIIFHYhxQQ
-    functionCode: 0
-    functionClass: 
-  - targetGameObject: {fileID: 1870585812}
-    targetComponent: {fileID: 1870585814}
-    targetFieldName: isRightToLeftText
-    isTargetProperty: 1
-    path: []
-    includePrivate: 0
-    liveUpdate: 0
-    metaIdString: OV5/H2LhsUiaav0EXxnBuQ
-    entityIdString: B+BdWnJWXE+f7zsH3FmvIg
-    fieldIdString: l95AEl0oeUG1wHUzEvC4xA0ZSm2s0sWEm/2QvA52V+hw
-    functionCode: 0
-    functionClass: 
-  - targetGameObject: {fileID: 1870585812}
-    targetComponent: {fileID: 1870585814}
-    targetFieldName: alignment
-    isTargetProperty: 1
-    path: []
-    includePrivate: 0
-    liveUpdate: 0
-    metaIdString: OV5/H2LhsUiaav0EXxnBuQ
-    entityIdString: B+BdWnJWXE+f7zsH3FmvIg
-    fieldIdString: l95AEl0oeUG1wHUzEvC4xAsXvSmEzvp0yuk8hUChoHTQ
-    functionCode: 0
-    functionClass: 
-  - targetGameObject: {fileID: 1870585812}
-    targetComponent: {fileID: 1870585814}
-    targetFieldName: font
-    isTargetProperty: 1
-    path: []
-    includePrivate: 0
-    liveUpdate: 0
-    metaIdString: VBOwcHmbokeppg9D7YO85g
-    entityIdString: vpKhfS78Sk+fN39M+4qgKQ
-    fieldIdString: PrNT+MZhrUyKd9GS1DOqIA
-    functionCode: 0
-    functionClass: 
-  templateBinders: []
-  graphBinders: []
 --- !u!1 &1878919013
 GameObject:
   m_ObjectHideFlags: 0

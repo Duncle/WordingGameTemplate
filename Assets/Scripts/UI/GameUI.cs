@@ -1,4 +1,4 @@
-﻿using BansheeGz.BGDatabase;
+﻿//using BansheeGz.BGDatabase;
 using Core.Scripts.UI;
 using DTT.MinigameBase;
 using DTT.MinigameBase.Timer;
@@ -143,19 +143,19 @@ namespace DTT.GuessThePicture
         /// <param name="currentHints">The amount of current hints.</param>
         private void UpdateHintText(int currentHints)
         {
-            var fmt = LanguageManager.GetLocalizedName(_fmtId, _table, _field);
-            if (string.IsNullOrEmpty(fmt)) Debug.LogError("There is no such field in DB!");
+            //var fmt = LanguageManager.GetLocalizedName(_fmtId, _table, _field);
+            //if (string.IsNullOrEmpty(fmt)) Debug.LogError("There is no such field in DB!");
 
-            var locale = BGRepo.I.Addons.Get<BGAddonLocalization>().CurrentLocale;
+            //var locale = BGRepo.I.Addons.Get<BGAddonLocalization>().CurrentLocale;
             string num = currentHints.ToString();
 
-            _hintsText.text = string.Format(fmt, num);
+            _hintsText.text = "Осталось открытий: " + num;
 
             //Если необходимо ещё и выравнивание/RTL с таблицы Locale:
-            var row = BGRepo.I["Localization"].FindEntity(e => e.Get<string>("name") == locale);
-            bool rtl = row?.Get<bool>("isRightToLeft") ?? LanguageManager.IsArabicLike(locale);
-            _hintsText.isRightToLeftText = rtl;
-            _hintsText.alignment = rtl ? TextAlignmentOptions.Right : TextAlignmentOptions.Left;
+            //var row = BGRepo.I["Localization"].FindEntity(e => e.Get<string>("name") == locale);
+            //bool rtl = row?.Get<bool>("isRightToLeft") ?? LanguageManager.IsArabicLike(locale);
+            //_hintsText.isRightToLeftText = rtl;
+            //_hintsText.alignment = rtl ? TextAlignmentOptions.Right : TextAlignmentOptions.Left;
 
             ToggleHintsUI(_guessThePictureUI.ClosedSquaresLeft > 0);
         }
