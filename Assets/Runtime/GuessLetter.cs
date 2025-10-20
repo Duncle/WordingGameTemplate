@@ -1,5 +1,6 @@
 ﻿using DTT.MinigameBase.Handles;
 using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -17,7 +18,7 @@ namespace DTT.GuessThePicture
         /// </summary>
         [SerializeField]
         [Tooltip("Text the letter should be drawn to.")]
-        private Text _text;
+        private TMP_Text _text;
 
         /// <summary>
         /// The background image for the letter.

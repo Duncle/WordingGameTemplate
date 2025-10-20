@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _picture: {fileID: 7985493240318429791, guid: 5d618e59da1e4c645acc81b114e0b296, type: 3}
   _word: "\u0420\u042B\u0411\u0410\u041A"
-  _additionalLetters: RODJ1
+  _additionalLetters: "\u0424\u041B\u0428"
   _hints: 1
   _revealsOnStart: 1
   _gridSize: {x: 2, y: 2}
