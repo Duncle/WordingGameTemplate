@@ -15,8 +15,8 @@ MonoBehaviour:
   _picture: {fileID: 7321722911345301881, guid: 455e0f978d924f44683323328aedfc03, type: 3}
   _word: "\u041E\u0424\u0418\u0426\u0418\u0410\u041D\u0422"
   _additionalLetters: "\u0416\u0414\u0410\u041B\u042F"
-  _hints: 3
-  _revealsOnStart: 2
+  _hints: 4
+  _revealsOnStart: 3
   _gridSize: {x: 4, y: 4}
   _hidePicture: 1
   _letterColors:
