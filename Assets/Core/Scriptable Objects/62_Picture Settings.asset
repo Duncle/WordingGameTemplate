@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ee8f61088ba48418dcfe336796b6e9, type: 3}
+  m_Name: 62_Picture Settings
+  m_EditorClassIdentifier: 
+  _picture: {fileID: -8910654617925635416, guid: 700dcb365c88bd24884ab5c9cbf951ec, type: 3}
+  _word: "\u0411\u0410\u041D\u041A\u0418\u0420"
+  _additionalLetters: "\u0421\u0412\u041E\u0426"
+  _hints: 3
+  _revealsOnStart: 2
+  _gridSize: {x: 4, y: 4}
+  _hidePicture: 1
+  _letterColors:
+  - {r: 0.113725506, g: 0.5982295, b: 0.88235295, a: 1}
+  - {r: 0.99215686, g: 0.8128864, b: 0.5294118, a: 1}
+  - {r: 0.5116448, g: 0.8207547, b: 0.3148807, a: 1}
